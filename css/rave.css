@@ -52,7 +52,10 @@ header .text-pinky {
 }
 
 /* Body Section */
-body .search_video:parent {
-  padding: 50px 0 50px 0;
+body .containeur {
+  padding: 50px 20% 50px 20%;
+}
+
+body .search_video {
   background-color: #666666;
 }
