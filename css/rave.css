@@ -14,15 +14,15 @@ header {
   font-size: 14px;
 }
 
-header nav {
+header div nav {
   font-weight: 700;
 }
 
-header .options {
+header div .options {
   font-size: 12px;
 }
 
-header .options:last-child {
+header div .options:last-child {
   font-size: 14px;
   font-weight: 700;
 }
