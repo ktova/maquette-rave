@@ -7,4 +7,8 @@ body div {
   display: -ms-grid;
   display: grid;
 }
+
+body p {
+  display: inline;
+}
 /*# sourceMappingURL=rave.css.map */
