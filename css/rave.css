@@ -38,8 +38,8 @@ header .heading .options {
   font-size: 12px;
 }
 
-header .heading .options ul:not:first-child {
-  padding-left: 10px;
+header .heading .options ul:not:last-child {
+  margin-right: 10px;
 }
 
 header .heading .options ul li {
