@@ -20,13 +20,9 @@ header .heading {
   padding: 2rem 0 2rem 0;
 }
 
-header .heading div {
-  width: 15%;
-}
-
 header .heading nav {
   font-weight: 700;
-  width: 60%;
+  width: 50%;
 }
 
 header .heading nav ul li {
