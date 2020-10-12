@@ -38,7 +38,7 @@ header .heading .options {
   font-size: 12px;
 }
 
-header .heading .options ul:not:last-child {
+header .heading .options ul:nth-child(-n+3) {
   margin-right: 10px;
 }
 
