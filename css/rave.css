@@ -17,6 +17,7 @@ header {
 header div {
   width: 90%;
   margin: auto;
+  padding: 20px 0 20px 0;
 }
 
 header div nav {
