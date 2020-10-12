@@ -26,12 +26,20 @@ header .heading nav {
   width: 60%;
 }
 
+header .heading nav ul:not:first-child {
+  padding-left: 10px;
+}
+
 header .heading nav ul li {
   display: inline;
 }
 
 header .heading .options {
   font-size: 12px;
+}
+
+header .heading .options ul:not:first-child {
+  padding-left: 10px;
 }
 
 header .heading .options ul li {
