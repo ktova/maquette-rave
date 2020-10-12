@@ -11,7 +11,7 @@ ul {
 header {
   background-color: #aaaaaa;
   color: #fff;
-  font-size: 9px;
+  font-size: 14px;
 }
 
 header nav {
@@ -19,10 +19,10 @@ header nav {
 }
 
 header .options {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 header .options:last-child {
-  font-size: 9px;
+  font-size: 14px;
   font-weight: 700;
 }
