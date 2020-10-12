@@ -20,8 +20,13 @@ header div {
   padding: 2rem 0 2rem 0;
 }
 
+header div:first-child, header div:last-child {
+  width: 15%;
+}
+
 header div nav {
   font-weight: 700;
+  width: 60%;
 }
 
 header div nav ul li {
