@@ -56,6 +56,14 @@ body .containeur {
   padding: 50px 15% 50px 15%;
 }
 
-body .search_video {
+body .search_video, body .newsletter {
   background-color: #666666;
+}
+
+body .mec, body .gdi {
+  background-color: #fff;
+}
+
+body .testimonials, body .about {
+  background-color: #f6f6f6;
 }
