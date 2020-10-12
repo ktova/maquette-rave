@@ -23,6 +23,9 @@ header .heading nav {
 
 header .heading nav ul li {
   display: inline;
+}
+
+header .heading nav ul:not:first-child {
   padding-left: 10px;
 }
 
