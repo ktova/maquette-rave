@@ -14,34 +14,34 @@ header {
   font-size: 14px;
 }
 
-header div {
+header .heading {
   width: 90%;
   margin: auto;
   padding: 2rem 0 2rem 0;
 }
 
-header div:first-child, header div:last-child {
+header .heading:first-child, header .heading:last-child {
   width: 15%;
 }
 
-header div nav {
+header .heading nav {
   font-weight: 700;
   width: 60%;
 }
 
-header div nav ul li {
+header .heading nav ul li {
   display: inline;
 }
 
-header div .options {
+header .heading .options {
   font-size: 12px;
 }
 
-header div .options ul li {
+header .heading .options ul li {
   display: inline;
 }
 
-header div .options:last-child {
+header .heading .options:last-child {
   font-size: 14px;
   font-weight: 700;
 }
