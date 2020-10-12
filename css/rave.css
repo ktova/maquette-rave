@@ -5,17 +5,24 @@
 
 ul {
   list-style-type: none;
+  margin-bottom: 0;
 }
 
-body {
-  color: #8a8a8a;
+header {
+  background-color: #aaaaaa;
+  color: #fff;
+  font-size: 9px;
 }
 
-body div {
-  display: -ms-grid;
-  display: grid;
+header nav {
+  font-weight: 700;
 }
 
-body p {
-  display: inline;
+header .options {
+  font-size: 8px;
+}
+
+header .options:last-child {
+  font-size: 9px;
+  font-weight: 700;
 }

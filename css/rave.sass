@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap')
 
 $font-stack:    'Oxygen', sans-serif
-$grey-white: #fff
+$white: #fff
 $grey-fff: #f5f6f7
 $grey-f6: #f6f6f6
 $grey-d: #dddddd
@@ -20,11 +20,19 @@ $jellow: #ffcb3e
 
 ul
   list-style-type: none
+  margin-bottom: 0
 
-body 
-  color: $grey-8a
+header
+  background-color: $grey-a
+  color: $white
+  font-size: 9px
 
-  div
-    display: grid
-  p
-    display: inline
+  nav
+    font-weight: 700
+
+  .options
+    font-size: 8px
+
+    &:last-child
+      font-size: 9px
+      font-weight: 700
