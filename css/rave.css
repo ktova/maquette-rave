@@ -1,0 +1,10 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+body div {
+  display: -ms-grid;
+  display: grid;
+}
+/*# sourceMappingURL=rave.css.map */
