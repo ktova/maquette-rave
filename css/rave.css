@@ -3,6 +3,10 @@
   font-family: "Oxygen", sans-serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
   color: #8a8a8a;
 }
