@@ -5,7 +5,7 @@
 
 ul {
   list-style-type: none;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 header {
@@ -22,7 +22,16 @@ header .heading {
 
 header .heading nav {
   font-weight: 700;
-  width: 50%;
+  width: 60%;
+}
+
+header .heading nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header .heading nav ul li {
@@ -31,6 +40,15 @@ header .heading nav ul li {
 
 header .heading .options {
   font-size: 12px;
+}
+
+header .heading .options ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header .heading .options ul li {
