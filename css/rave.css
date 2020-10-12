@@ -20,7 +20,7 @@ header .heading {
   padding: 2rem 0 2rem 0;
 }
 
-header .heading:first-child, header .heading:last-child {
+header .heading div {
   width: 15%;
 }
 
