@@ -42,7 +42,7 @@ header
       width: 60%
 
       ul
-        &:not:first-child
+        not:first-child
           padding-left: 10px
 
         li
@@ -52,13 +52,13 @@ header
       font-size: 12px
 
       ul
-        &:nth-child(-n+3)
+        not:last-child
           margin-right: 10px
 
         li
           display: inline
 
-      &:last-child
+      :last-child
         font-size: 14px
         font-weight: 700
 

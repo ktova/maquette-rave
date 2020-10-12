@@ -26,7 +26,7 @@ header .heading nav {
   width: 60%;
 }
 
-header .heading nav ul:not:first-child {
+header .heading nav ul not:first-child {
   padding-left: 10px;
 }
 
@@ -36,19 +36,16 @@ header .heading nav ul li {
 
 header .heading .options {
   font-size: 12px;
+  last-child-font-size: 14px;
+  last-child-font-weight: 700;
 }
 
-header .heading .options ul:nth-child(-n+3) {
+header .heading .options ul not:last-child {
   margin-right: 10px;
 }
 
 header .heading .options ul li {
   display: inline;
-}
-
-header .heading .options:last-child {
-  font-size: 14px;
-  font-weight: 700;
 }
 
 header .text-pinky {
