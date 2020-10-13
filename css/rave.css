@@ -37,14 +37,14 @@ header .heading .options {
   font-size: 14px;
 }
 
-header .heading .options ul not:last-child {
-  margin-right: 10px;
+header .heading .options ul {
+  last-child-background-color: #222222;
+  last-child-border: radius 5px;
+  last-child-padding: 20px 10px;
 }
 
-header .heading .options ul:last-child {
-  background-color: #222222;
-  border: radius 5px;
-  padding: 20px 10px;
+header .heading .options ul not:last-child {
+  margin-right: 10px;
 }
 
 header .heading .options ul li {
