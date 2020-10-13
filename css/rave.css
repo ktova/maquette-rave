@@ -125,10 +125,14 @@ body .search_video .half h1 {
 
 body .search_video .half .input-group i {
   position: absolute;
-  z-index: 3;
+  z-index: 4;
   right: 20px;
   top: 10px;
   color: #666666;
+}
+
+body .search_video .half:last-child {
+  background-color: black;
 }
 
 /* Footer */
