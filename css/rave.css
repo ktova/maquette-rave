@@ -30,19 +30,19 @@ header .heading nav ul li {
 }
 
 header .heading nav ul li:not:first-child {
-  padding-left: 10px;
+  margin-left: 10px;
 }
 
 header .heading .options {
   font-size: 14px;
 }
 
-header .heading .options ul {
-  margin-right: 10px;
-}
-
 header .heading .options ul li {
   display: inline;
+}
+
+header .heading .options ul li:not:last-child {
+  margin-right: 10px;
 }
 
 header .heading .options ul li:last-child {
