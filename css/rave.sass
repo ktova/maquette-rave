@@ -43,6 +43,17 @@ ul
   &:hover
     cursor: pointer
 
+%button-pinky
+  background-color: $pinky
+  opacity: 0.4
+  border-radius: 2px
+  padding: 15px
+  color: $white
+  text-transform: uppercase
+
+  &:hover
+    cursor: pointer
+
 /* Menu */
 
 header
@@ -175,6 +186,8 @@ body
 
   .about
     .half:first-child
+      flex-direction: column
+
       h2
         a
           color: $pinky

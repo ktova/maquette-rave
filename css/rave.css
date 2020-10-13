@@ -200,6 +200,13 @@ body .search_video .half:last-child div span {
   color: #fff;
 }
 
+body .about .half:first-child {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 body .about .half:first-child h2 a {
   color: #ff6969;
 }
