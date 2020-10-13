@@ -11,8 +11,8 @@ ul {
 header .heading .options ul li:last-child, body .search_video .half .button {
   background-color: #000;
   opacity: 0.4;
-  border: radius 2px;
-  padding: 20px 10px;
+  border-radius: 2px;
+  padding: 15px;
 }
 
 /* Menu */
@@ -86,6 +86,10 @@ body .testimonials, body .about {
 
 body .search_video .half h1, body .search_video .half span {
   color: #fff;
+}
+
+body .search_video .half h1 {
+  max-width: 400px;
 }
 
 /* Footer */
