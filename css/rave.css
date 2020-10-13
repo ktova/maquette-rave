@@ -237,5 +237,27 @@ body .about .half:first-child .button-pinky {
   margin-right: auto;
 }
 
+body .about .half:last-child div {
+  width: 48%;
+}
+
+body .about .half:last-child div span {
+  background-color: #666666;
+}
+
+body .about .half:last-child div span:first-child {
+  width: 100%;
+  height: 175px;
+}
+
+body .about .half:last-child div span:last-child {
+  width: 75%;
+  height: 120px;
+}
+
+body .about .half:last-child div + div {
+  margin-left: 4%;
+}
+
 /* Footer */
 /*# sourceMappingURL=rave.css.map */
