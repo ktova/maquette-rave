@@ -53,6 +53,18 @@ ul
   &:hover
     cursor: pointer
 
+%button-pinky-outline
+  background-color: $white
+  border-color: $pinky
+  border-width: 2px
+  border-radius: 2px
+  padding: 15px
+  color: $pinky
+  text-transform: uppercase
+
+  &:hover
+    cursor: pointer
+
 /* Menu */
 
 header
@@ -248,9 +260,16 @@ body
 
       h2
         text-align: center
-
-      &:last-child
+    
+    .full
+      h2
         margin-bottom: 50px
+    
+    .button-pinky_outline
+      @extend %button-pinky-outline
+      margin-top: 35px
+      width: auto
+      margin-right: auto
 
 /* Footer */
 

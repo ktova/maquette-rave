@@ -46,6 +46,20 @@ body .about .half:first-child .button-pinky:hover {
   cursor: pointer;
 }
 
+body .mec .button-pinky_outline {
+  background-color: #fff;
+  border-color: #ff6969;
+  border-width: 2px;
+  border-radius: 2px;
+  padding: 15px;
+  color: #ff6969;
+  text-transform: uppercase;
+}
+
+body .mec .button-pinky_outline:hover {
+  cursor: pointer;
+}
+
 /* Menu */
 header {
   background-color: #666666;
@@ -308,8 +322,14 @@ body .mec .full:first-child h2, body .mec .full:nth-child(2) h2 {
   text-align: center;
 }
 
-body .mec .full:first-child:last-child, body .mec .full:nth-child(2):last-child {
+body .mec .full h2 {
   margin-bottom: 50px;
+}
+
+body .mec .button-pinky_outline {
+  margin-top: 35px;
+  width: auto;
+  margin-right: auto;
 }
 
 /* Footer */
