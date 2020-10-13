@@ -304,12 +304,12 @@ body .mec .full + .full {
   margin-top: 50px;
 }
 
-body .mec .full:first-child, body .mec .full:nth-child(2) {
-  margin-bottom: 50px;
-}
-
 body .mec .full:first-child h2, body .mec .full:nth-child(2) h2 {
   text-align: center;
+}
+
+body .mec .full:first-child:last-child, body .mec .full:nth-child(2):last-child {
+  margin-bottom: 50px;
 }
 
 /* Footer */
