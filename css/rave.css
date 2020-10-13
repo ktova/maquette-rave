@@ -37,7 +37,7 @@ header .heading nav {
 }
 
 header .heading nav ul li:nth-child(-n+4) {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 header .heading nav ul li {
@@ -48,7 +48,7 @@ header .heading .options {
   font-size: 14px;
 }
 
-header .heading .options ul li::nth-child(-n+3) {
+header .heading .options ul li:nth-child(-n+3) {
   margin-right: 10px;
 }
 
