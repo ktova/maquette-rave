@@ -475,7 +475,7 @@ body .testimonials div .half .testimonials_persona .persona_infos {
           flex-direction: column;
 }
 
-body .testimonials div .half .testimonials_persona .persona_infos:first-child {
+body .testimonials div .half .testimonials_persona .persona_infos h6:first-child {
   font-weight: 700;
 }
 
