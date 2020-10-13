@@ -238,7 +238,7 @@ body .about .half:first-child .button-pinky {
 }
 
 body .about .half:last-child div {
-  width: 48%;
+  width: 49%;
 }
 
 body .about .half:last-child div span {
@@ -259,7 +259,7 @@ body .about .half:last-child div span:last-child {
 }
 
 body .about .half:last-child div + div {
-  margin-left: 4%;
+  margin-left: 2%;
 }
 
 /* Footer */
