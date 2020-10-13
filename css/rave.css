@@ -525,7 +525,7 @@ body .gdi h2, body .gdi span {
   text-align: center;
 }
 
-body .gdi span:first-child {
+body .gdi:span:first-child {
   color: #aaaaaa;
 }
 
