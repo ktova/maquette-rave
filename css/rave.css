@@ -333,12 +333,13 @@ body .mec .money {
       flex-wrap: wrap;
 }
 
-body .mec .money * {
+body .mec .money .money_item {
+  width: 25%;
   text-align: center;
 }
 
-body .mec .money object {
-  color: #ff6969;
+body .mec .money .money_item object svg g {
+  stroke: #ff6969;
 }
 
 body .mec .button-pinky_outline {

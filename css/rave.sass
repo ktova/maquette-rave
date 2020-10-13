@@ -268,11 +268,14 @@ body
       display: flex
       flex-wrap: wrap
 
-      *
+      .money_item
+        width: 25%
         text-align: center
 
-      object
-        color: $pinky
+        object
+          svg
+            g
+              stroke: $pinky
     
     .button-pinky_outline
       @extend %button-pinky-outline
