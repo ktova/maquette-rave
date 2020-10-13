@@ -440,6 +440,10 @@ body .testimonials div .half {
           flex-direction: column;
 }
 
+body .testimonials div .half i {
+  color: #9a9a9a;
+}
+
 body .testimonials .full {
   display: -webkit-box;
   display: -ms-flexbox;
