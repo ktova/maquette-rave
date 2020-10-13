@@ -527,7 +527,6 @@ body .gdi h2, body .gdi span {
 
 body .gdi span:first-child {
   color: #aaaaaa;
-  margin-bottom: 50px;
 }
 
 body .gdi .gallery {
@@ -538,7 +537,7 @@ body .gdi .gallery {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 500px;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 body .gdi .gallery .gallery-half {
