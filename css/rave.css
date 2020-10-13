@@ -338,12 +338,9 @@ body .mec .money .money_item {
   text-align: center;
 }
 
-body .mec .money .money_item object {
-  stroke: #ff6969;
-}
-
-body .mec .money .money_item object svg {
-  stroke: #ff6969;
+body .mec .money .money_item h5 {
+  font-weight: 900;
+  margin: 30px 0;
 }
 
 body .mec .button-pinky_outline {
