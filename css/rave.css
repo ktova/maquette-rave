@@ -319,7 +319,6 @@ body .about .half:last-child .right-section span:first-child {
 
 body .about .half:last-child .right-section span:last-child {
   background-size: contain;
-  background-position: center;
   background: url("https://images.unsplash.com/photo-1600854792185-b825c0fdce07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80");
 }
 
