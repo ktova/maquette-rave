@@ -304,7 +304,7 @@ body .mec .full + .full {
   margin-top: 50px;
 }
 
-body .mec .full h2:first-child, body .mec .full h2:nth-child(2) {
+body .mec .full:first-child, body .mec .full:nth-child(2) {
   text-align: center;
 }
 
