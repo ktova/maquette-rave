@@ -287,6 +287,13 @@ body .about .half:last-child div + div {
   margin-left: 2%;
 }
 
+body .mec {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 body .mec .full + .full {
   margin-top: 50px;
 }
