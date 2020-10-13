@@ -226,6 +226,7 @@ body .search_video .half:last-child div i {
   background-color: white;
   border-radius: 50px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 body .search_video .half:last-child div span {
