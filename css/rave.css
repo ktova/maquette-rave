@@ -13,7 +13,10 @@ header .heading .options ul li:last-child, body .search_video .half .button {
   opacity: 0.4;
   border-radius: 2px;
   padding: 15px;
-  hover-cursor: pointer;
+}
+
+header .heading .options ul li:hover:last-child, body .search_video .half .button:hover {
+  cursor: pointer;
 }
 
 /* Menu */
