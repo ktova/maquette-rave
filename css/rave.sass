@@ -46,18 +46,19 @@ header
           padding-left: 10px
 
     .options
-      font-size: 12px
+      font-size: 14px
 
       ul
         not:last-child
           margin-right: 10px
 
+        &:last-child
+          background-color: $dark-2
+          border: radius 5px
+          padding: 20px 10px
+
         li
           display: inline
-
-      :last-child
-        font-size: 14px
-        font-weight: 700
 
   .text-pinky
     color: $pinky
