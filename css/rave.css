@@ -36,7 +36,7 @@ header .heading nav {
   width: 60%;
 }
 
-header .heading nav ul li:not:first-child {
+header .heading nav ul li:nth-child(4n) {
   margin-left: 10px;
 }
 
@@ -48,7 +48,7 @@ header .heading .options {
   font-size: 14px;
 }
 
-header .heading .options ul li:not:last-child {
+header .heading .options ul li::nth-child(3n) {
   margin-right: 10px;
 }
 
