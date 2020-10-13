@@ -355,6 +355,7 @@ body .mec .explore {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 body .mec .explore .explore_item {
