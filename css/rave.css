@@ -34,6 +34,19 @@ header .heading .options ul li:hover:last-child, body .search_video .half:first-
   cursor: pointer;
 }
 
+body .about .half:first-child .button-pinky {
+  background-color: #ff6969;
+  opacity: 0.4;
+  border-radius: 2px;
+  padding: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+body .about .half:first-child .button-pinky:hover {
+  cursor: pointer;
+}
+
 /* Menu */
 header {
   background-color: #666666;
@@ -207,8 +220,20 @@ body .about .half:first-child {
           flex-direction: column;
 }
 
+body .about .half:first-child h2 {
+  margin-bottom: 35px;
+}
+
 body .about .half:first-child h2 a {
   color: #ff6969;
+}
+
+body .about .half:first-child span + span {
+  margin-top: 25px;
+}
+
+body .about .half:first-child .button-pinky {
+  margin-top: 35px;
 }
 
 /* Footer */
