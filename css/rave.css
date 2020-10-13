@@ -19,14 +19,14 @@ ul {
   padding: 0;
 }
 
-header .heading .options ul li:last-child, body .search_video .half .button-dark {
+header .heading .options ul li:last-child, body .search_video .half:first-child .button-dark {
   background-color: #000;
   opacity: 0.4;
   border-radius: 2px;
   padding: 15px;
 }
 
-header .heading .options ul li:hover:last-child, body .search_video .half .button-dark:hover {
+header .heading .options ul li:hover:last-child, body .search_video .half:first-child .button-dark:hover {
   cursor: pointer;
 }
 
@@ -92,6 +92,9 @@ body section {
 body section .half {
   width: 50%;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body .search_video, body .newsletter {
@@ -106,32 +109,39 @@ body .testimonials, body .about {
   background-color: #f6f6f6;
 }
 
-body .search_video .half img {
+body .search_video .half:first-child {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .search_video .half:first-child img {
   position: absolute;
   top: -10px;
   left: -20px;
   z-index: 1;
 }
 
-body .search_video .half h1, body .search_video .half span {
+body .search_video .half:first-child h1, body .search_video .half:first-child span {
   color: #fff;
   position: relative;
   z-index: 2;
 }
 
-body .search_video .half h1 {
+body .search_video .half:first-child h1 {
   max-width: 400px;
 }
 
-body .search_video .half .button-dark {
+body .search_video .half:first-child .button-dark {
   margin-top: 10px;
 }
 
-body .search_video .half .input-group {
+body .search_video .half:first-child .input-group {
   margin-top: 25px;
 }
 
-body .search_video .half .input-group i {
+body .search_video .half:first-child .input-group i {
   position: absolute;
   z-index: 4;
   right: 20px;

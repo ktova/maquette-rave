@@ -99,6 +99,7 @@ body
     .half
       width: 50%
       position: relative
+      display: flex
    
   .search_video, .newsletter
     background-color: $grey-6
@@ -110,7 +111,9 @@ body
     background-color: $grey-f6
 
   .search_video
-    .half
+    .half:first-child
+      flex-direction: column
+      
       img
         position: absolute
         top: -10px
