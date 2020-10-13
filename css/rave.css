@@ -129,6 +129,11 @@ body .testimonials, body .about {
   background-color: #f6f6f6;
 }
 
+body .search_video {
+  background: url("https://images.unsplash.com/photo-1493515322954-4fa727e97985?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-size: contain;
+}
+
 body .search_video .half:first-child {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
