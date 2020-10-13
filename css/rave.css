@@ -424,7 +424,7 @@ body .testimonials {
           flex-direction: column;
 }
 
-body .testimonials div:first-child {
+body .testimonials:first-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -433,7 +433,7 @@ body .testimonials div:first-child {
           justify-content: space-between;
 }
 
-body .testimonials div:last-child {
+body .testimonials .full {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
