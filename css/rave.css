@@ -325,6 +325,22 @@ body .mec .full h2 {
   margin-bottom: 50px;
 }
 
+body .mec .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .mec .money * {
+  text-align: center;
+}
+
+body .mec .money object {
+  color: #ff6969;
+}
+
 body .mec .button-pinky_outline {
   margin-top: 35px;
   width: auto;
