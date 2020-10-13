@@ -25,7 +25,7 @@ ul {
 
 header .heading .options ul li:last-child, body .search_video .half:first-child .button-dark {
   background-color: #000;
-  opacity: 0.4;
+  opacity: 0.7;
   border-radius: 2px;
   padding: 10px;
 }
