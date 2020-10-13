@@ -113,6 +113,10 @@ body section .half {
   display: flex;
 }
 
+body section .full {
+  width: 100%;
+}
+
 body .search_video, body .newsletter {
   background-color: #666666;
 }
@@ -281,6 +285,10 @@ body .about .half:last-child div:first-child {
 
 body .about .half:last-child div + div {
   margin-left: 2%;
+}
+
+body .mec .full + .full {
+  margin-top: 50px;
 }
 
 /* Footer */
