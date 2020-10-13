@@ -338,7 +338,7 @@ body .mec .money .money_item {
   text-align: center;
 }
 
-body .mec .money .money_item object svg g {
+body .mec .money .money_item g {
   stroke: #ff6969;
 }
 
