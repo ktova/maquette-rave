@@ -123,5 +123,12 @@ body .search_video .half h1 {
   max-width: 400px;
 }
 
+body .search_video .half .input-group i {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  color: #666666;
+}
+
 /* Footer */
 /*# sourceMappingURL=rave.css.map */
