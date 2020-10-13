@@ -406,7 +406,7 @@ body .mec .explore .explore_item span {
 
 body .mec .explore .explore_item:nth-child(1) span:first-child {
   background: url("https://images.unsplash.com/photo-1541779808802-844b1b586a81?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
-  background-size: contain;
+  background-size: cover;
 }
 
 body .mec .explore .explore_item:nth-child(2) span:first-child {
