@@ -289,13 +289,16 @@ body
         h5
           font-weight: 700
           margin-top: 25px
+
+        h5:first-child
+          margin-bottom: 10px
         
         h6
           font-weight: 700
           color: $grey-9a
         
         span:first-child
-          margin-bottom: 15px
+          display: inline-flex
           width: 100%
           height: 200px
           background-color: $dark-2
@@ -303,8 +306,9 @@ body
         span
           color: $grey-8a
 
-        span + span
-          margin-top: 20px
+        span:nth-child(2)
+          margin-top: 25px
+
     
     .button-pinky_outline
       @extend %button-pinky-outline
