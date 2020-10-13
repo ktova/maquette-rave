@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+h1 {
+  font-weight: 700;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -39,6 +43,10 @@ header .heading {
           align-items: center;
 }
 
+header .heading div img {
+  cursor: pointer;
+}
+
 header .heading nav {
   font-weight: 700;
   width: 60%;
@@ -50,6 +58,7 @@ header .heading nav ul li + li {
 
 header .heading nav ul li {
   display: inline;
+  cursor: pointer;
 }
 
 header .heading .options {
@@ -62,6 +71,7 @@ header .heading .options ul li + li {
 
 header .heading .options ul li {
   display: inline;
+  cursor: pointer;
 }
 
 header .text-pinky {
