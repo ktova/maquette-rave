@@ -200,5 +200,9 @@ body .search_video .half:last-child div span {
   color: #fff;
 }
 
+body .about .half:first-child h2 a {
+  color: #ff6969;
+}
+
 /* Footer */
 /*# sourceMappingURL=rave.css.map */
