@@ -521,4 +521,12 @@ body .gdi {
           flex-direction: column;
 }
 
+body .gdi h1, body .gdi span {
+  text-align: center;
+}
+
+body .gdi span {
+  color: #aaaaaa;
+}
+
 /* Footer */
