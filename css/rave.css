@@ -1,7 +1,18 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+header .heading .options ul li:last-child, body .search_video .half .button {
+  background-color: #000;
+  opacity: 0.4;
+  border: radius 2px;
+  padding: 20px 10px;
 }
 
 /* Menu */
@@ -45,23 +56,19 @@ header .heading .options ul li {
   display: inline;
 }
 
-header .heading .options ul li:last-child {
-  background-color: #000;
-  opacity: 0.4;
-  border: radius 2px;
-  padding: 20px 10px;
-}
-
 header .text-pinky {
   color: #ff6969;
 }
 
 /* Body Section */
-body .containeur {
+body section {
   padding: 50px 15% 50px 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-body .containeur .half {
+body section .half {
   width: 50%;
 }
 
@@ -75,6 +82,10 @@ body .mec, body .gdi {
 
 body .testimonials, body .about {
   background-color: #f6f6f6;
+}
+
+body .search_video .half h1, body .search_video .half span {
+  color: #fff;
 }
 
 /* Footer */
