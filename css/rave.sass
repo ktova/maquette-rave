@@ -35,7 +35,7 @@ ul
   background-color: $dark-0
   opacity: 0.4
   border-radius: 2px
-  padding: 15px
+  padding: 10px
 
   &:hover
     cursor: pointer
@@ -113,7 +113,7 @@ body
   .search_video
     .half:first-child
       flex-direction: column
-      
+
       img
         position: absolute
         top: -10px
@@ -131,6 +131,8 @@ body
       .button-dark
         @extend %button-dark
         margin-top: 10px
+        width: auto
+        margin-right: auto
 
       .input-group
         margin-top: 25px
@@ -166,6 +168,7 @@ body
 
         span
           text-transform: uppercase
+          color: $white
 
   .about
     .half

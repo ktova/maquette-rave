@@ -23,7 +23,7 @@ header .heading .options ul li:last-child, body .search_video .half:first-child 
   background-color: #000;
   opacity: 0.4;
   border-radius: 2px;
-  padding: 15px;
+  padding: 10px;
 }
 
 header .heading .options ul li:hover:last-child, body .search_video .half:first-child .button-dark:hover {
@@ -135,6 +135,8 @@ body .search_video .half:first-child h1 {
 
 body .search_video .half:first-child .button-dark {
   margin-top: 10px;
+  width: auto;
+  margin-right: auto;
 }
 
 body .search_video .half:first-child .input-group {
@@ -191,6 +193,7 @@ body .search_video .half:last-child div i {
 
 body .search_video .half:last-child div span {
   text-transform: uppercase;
+  color: #fff;
 }
 
 /* Footer */
