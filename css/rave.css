@@ -13,6 +13,7 @@ header .heading .options ul li:last-child, body .search_video .half .button {
   opacity: 0.4;
   border-radius: 2px;
   padding: 15px;
+  hover-cursor: pointer;
 }
 
 /* Menu */
