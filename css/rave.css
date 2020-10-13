@@ -106,7 +106,7 @@ body section {
 }
 
 body section .half {
-  width: 50%;
+  width: 45%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -168,9 +168,7 @@ body .search_video .half:first-child .input-group i {
 }
 
 body .search_video .half:last-child {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-left: 10%;
 }
 
 body .search_video .half:last-child div {
@@ -235,6 +233,10 @@ body .about .half:first-child .button-pinky {
   margin-top: 35px;
   width: auto;
   margin-right: auto;
+}
+
+body .about .half:last-child {
+  margin-left: 10%;
 }
 
 body .about .half:last-child div {
