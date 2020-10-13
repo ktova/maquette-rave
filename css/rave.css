@@ -131,5 +131,33 @@ body .search_video .half .input-group i {
   color: #666666;
 }
 
+body .search_video .half:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .search_video .half:last-child div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .search_video .half:last-child div i {
+  height: 50px;
+  width: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 50px;
+}
+
 /* Footer */
 /*# sourceMappingURL=rave.css.map */
