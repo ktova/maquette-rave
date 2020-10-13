@@ -438,10 +438,15 @@ body .testimonials div .half {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: left;
 }
 
 body .testimonials div .half i {
   color: #9a9a9a;
+}
+
+body .testimonials div .half span {
+  margin: 20px 0;
 }
 
 body .testimonials .full {
