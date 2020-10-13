@@ -4,10 +4,6 @@
           box-sizing: border-box;
 }
 
-g {
-  stroke: #ff6969;
-}
-
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -340,6 +336,14 @@ body .mec .money {
 body .mec .money .money_item {
   width: 25%;
   text-align: center;
+}
+
+body .mec .money .money_item object {
+  stroke: #ff6969;
+}
+
+body .mec .money .money_item object svg {
+  stroke: #ff6969;
 }
 
 body .mec .button-pinky_outline {
