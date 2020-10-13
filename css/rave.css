@@ -117,10 +117,6 @@ body section .full {
   width: 100%;
 }
 
-body section .full:not:last-child {
-  margin-bottom: 50px;
-}
-
 body .search_video, body .newsletter {
   background-color: #666666;
 }
@@ -306,6 +302,10 @@ body .mec {
 
 body .mec .full + .full {
   margin-top: 50px;
+}
+
+body .mec .full:first-child, body .mec .full:nth-child(2) {
+  margin-bottom: 50px;
 }
 
 body .mec .full:first-child h2, body .mec .full:nth-child(2) h2 {
