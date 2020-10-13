@@ -148,6 +148,9 @@ body .search_video .half:last-child div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 body .search_video .half:last-child div i {
@@ -165,6 +168,7 @@ body .search_video .half:last-child div i {
           align-items: center;
   background-color: white;
   border-radius: 50px;
+  margin-bottom: 10px;
 }
 
 /* Footer */
