@@ -123,8 +123,12 @@ body .search_video .half h1 {
   max-width: 400px;
 }
 
+body .search_video .half .button-dark {
+  margin-top: 10px;
+}
+
 body .search_video .half .input-group {
-  margin: 25px 0 10px 0;
+  margin-top: 25px;
 }
 
 body .search_video .half .input-group i {
