@@ -42,23 +42,23 @@ header
         li
           display: inline
 
-        *:not:first-child
-          padding-left: 10px
+      ul:not:first-child
+        padding-left: 10px
 
     .options
       font-size: 14px
 
       ul:not:last-child
-        margin-right: 10px
-
-      ul:last-child
-        background-color: $dark-2
-        border: radius 5px
-        padding: 20px 10px
+        margin-right: 10px        
 
       ul
         li
           display: inline
+
+        li:last-child
+          background-color: $dark-2
+          border: radius 5px
+          padding: 20px 10px
 
   .text-pinky
     color: $pinky
