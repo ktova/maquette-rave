@@ -521,11 +521,11 @@ body .gdi {
           flex-direction: column;
 }
 
-body .gdi h2, body .gdi span {
+body .gdi h2, body .gdi h6 {
   text-align: center;
 }
 
-body .gdi:nth-child(1) {
+body .gdi h6 {
   color: #aaaaaa;
 }
 
@@ -538,6 +538,7 @@ body .gdi .gallery {
           justify-content: space-between;
   height: 500px;
   margin: 50px 0;
+  text-align: center;
 }
 
 body .gdi .gallery .gallery-half {
