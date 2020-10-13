@@ -61,6 +61,10 @@ body .containeur {
   padding: 50px 15% 50px 15%;
 }
 
+body .containeur .half {
+  width: 50%;
+}
+
 body .search_video, body .newsletter {
   background-color: #666666;
 }
