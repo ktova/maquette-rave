@@ -25,24 +25,24 @@ header .heading nav {
   width: 60%;
 }
 
-header .heading nav ul li {
-  display: inline;
-}
-
 header .heading nav ul li:not:first-child {
   margin-left: 10px;
+}
+
+header .heading nav ul li {
+  display: inline;
 }
 
 header .heading .options {
   font-size: 14px;
 }
 
-header .heading .options ul li {
-  display: inline;
-}
-
 header .heading .options ul li:not:last-child {
   margin-right: 10px;
+}
+
+header .heading .options ul li {
+  display: inline;
 }
 
 header .heading .options ul li:last-child {
