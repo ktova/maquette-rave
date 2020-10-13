@@ -29,7 +29,7 @@ header .heading nav ul li {
   display: inline;
 }
 
-header .heading nav ul:not:first-child {
+header .heading nav ul li:not:first-child {
   padding-left: 10px;
 }
 
@@ -37,7 +37,7 @@ header .heading .options {
   font-size: 14px;
 }
 
-header .heading .options ul:not:last-child {
+header .heading .options ul {
   margin-right: 10px;
 }
 
@@ -46,8 +46,9 @@ header .heading .options ul li {
 }
 
 header .heading .options ul li:last-child {
-  background-color: #222222;
-  border: radius 5px;
+  background-color: #000;
+  opacity: 0.4;
+  border: radius 2px;
   padding: 20px 10px;
 }
 
