@@ -367,13 +367,10 @@ body .mec .explore .explore_item h5 {
   margin-top: 25px;
 }
 
-body .mec .explore .explore_item h5:first-child {
-  margin-bottom: 10px;
-}
-
 body .mec .explore .explore_item h6 {
   font-weight: 700;
   color: #9a9a9a;
+  margin: 10px 0 25px 0;
 }
 
 body .mec .explore .explore_item span:first-child {
@@ -387,10 +384,6 @@ body .mec .explore .explore_item span:first-child {
 
 body .mec .explore .explore_item span {
   color: #8a8a8a;
-}
-
-body .mec .explore .explore_item span:nth-child(1) {
-  margin-top: 25px;
 }
 
 body .mec .button-pinky_outline {
