@@ -307,6 +307,21 @@ body .about .half:last-child div + div {
   margin-left: 2%;
 }
 
+body .about .half:last-child .left-section span {
+  background-size: cover;
+  background: url("https://i.imgur.com/0Bh5JfB.jpg");
+}
+
+body .about .half:last-child .right-section span:first-child {
+  background-size: cover;
+  background: url("https://i.imgur.com/Pp5yToA.jpg");
+}
+
+body .about .half:last-child .right-section span:last-child {
+  background-size: cover;
+  background: url("https://i.imgur.com/UPyQbYp.png");
+}
+
 body .mec {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
