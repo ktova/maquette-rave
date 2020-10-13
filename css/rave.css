@@ -424,7 +424,7 @@ body .testimonials {
           flex-direction: column;
 }
 
-body .testimonials:first-child {
+body .testimonials div:first-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -437,6 +437,7 @@ body .testimonials .full {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
