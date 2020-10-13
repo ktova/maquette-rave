@@ -364,13 +364,13 @@ body .mec .explore .explore_item {
 
 body .mec .explore .explore_item h5 {
   font-weight: 700;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 body .mec .explore .explore_item h6 {
   font-weight: 700;
   color: #9a9a9a;
-  margin: 10px 0 25px 0;
+  margin: 10px 0 15px 0;
 }
 
 body .mec .explore .explore_item span:first-child {
@@ -378,7 +378,7 @@ body .mec .explore .explore_item span:first-child {
   display: -ms-inline-flexbox;
   display: inline-flex;
   width: 100%;
-  height: 200px;
+  height: 300px;
   background-color: #222222;
 }
 
