@@ -538,6 +538,7 @@ body .gdi .gallery {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 500px;
+  margin-bottom: 50px;
 }
 
 body .gdi .gallery .gallery-half {
