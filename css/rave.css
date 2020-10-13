@@ -91,6 +91,7 @@ body section {
 
 body section .half {
   width: 50%;
+  position: relative;
 }
 
 body .search_video, body .newsletter {
@@ -103,6 +104,12 @@ body .mec, body .gdi {
 
 body .testimonials, body .about {
   background-color: #f6f6f6;
+}
+
+body .search_video .half img {
+  position: absolute;
+  top: 0;
+  left: -20px;
 }
 
 body .search_video .half h1, body .search_video .half span {
