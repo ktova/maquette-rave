@@ -19,14 +19,14 @@ ul {
   padding: 0;
 }
 
-header .heading .options ul li:last-child, body .search_video .half .button {
+header .heading .options ul li:last-child, body .search_video .half .button-dark {
   background-color: #000;
   opacity: 0.4;
   border-radius: 2px;
   padding: 15px;
 }
 
-header .heading .options ul li:hover:last-child, body .search_video .half .button:hover {
+header .heading .options ul li:hover:last-child, body .search_video .half .button-dark:hover {
   cursor: pointer;
 }
 
@@ -123,6 +123,10 @@ body .search_video .half h1 {
   max-width: 400px;
 }
 
+body .search_video .half .input-group {
+  margin: 25px 0 10px 0;
+}
+
 body .search_video .half .input-group i {
   position: absolute;
   z-index: 4;
@@ -169,6 +173,10 @@ body .search_video .half:last-child div i {
   background-color: white;
   border-radius: 50px;
   margin-bottom: 10px;
+}
+
+body .search_video .half:last-child div span {
+  text-transform: uppercase;
 }
 
 /* Footer */
