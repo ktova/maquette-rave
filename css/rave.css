@@ -389,7 +389,7 @@ body .mec .explore .explore_item span {
   color: #8a8a8a;
 }
 
-body .mec .explore .explore_item span:nth-child(2) {
+body .mec .explore .explore_item span:nth-child(1) {
   margin-top: 25px;
 }
 
