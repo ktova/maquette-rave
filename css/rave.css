@@ -36,7 +36,6 @@ header .heading .options ul li:hover:last-child, body .search_video .half:first-
 
 body .about .half:first-child .button-pinky {
   background-color: #ff6969;
-  opacity: 0.4;
   border-radius: 2px;
   padding: 15px;
   color: #fff;
@@ -234,6 +233,8 @@ body .about .half:first-child span + span {
 
 body .about .half:first-child .button-pinky {
   margin-top: 35px;
+  width: auto;
+  margin-right: auto;
 }
 
 /* Footer */
