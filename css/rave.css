@@ -48,8 +48,7 @@ body .about .half:first-child .button-pinky:hover {
 
 body .mec .button-pinky_outline {
   background-color: #fff;
-  border-color: #ff6969;
-  border-width: 2px;
+  border: 2px solid #ff6969;
   border-radius: 2px;
   padding: 15px;
   color: #ff6969;
