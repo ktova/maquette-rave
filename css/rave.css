@@ -66,7 +66,6 @@ header {
   font-size: 14px;
   background: url("https://images.unsplash.com/photo-1493515322954-4fa727e97985?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
   background-size: cover;
-  background-position: center bottom;
 }
 
 header .heading {
