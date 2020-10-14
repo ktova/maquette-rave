@@ -660,10 +660,16 @@ body .tab {
   border-bottom: 1px solid #8a8a8a;
 }
 
+body .tab .tabactive {
+  color: #ff6969;
+  border-bottom: 1px solid #ff6969;
+}
+
 body .tab .tabindex {
   width: 20%;
   padding-bottom: 10px;
   color: #8a8a8a;
+  text-transform: uppercase;
 }
 
 body .inspire .headbtn {
