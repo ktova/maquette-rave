@@ -627,6 +627,10 @@ body .headbtn {
           justify-content: space-between;
 }
 
+body .deals {
+  margin-bottom: 50px;
+}
+
 body .newsletter .full {
   display: -webkit-box;
   display: -ms-flexbox;
