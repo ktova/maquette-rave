@@ -637,6 +637,7 @@ body .newsletter .full div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 50%;
 }
 
 /* Footer */
