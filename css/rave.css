@@ -37,7 +37,7 @@ header .heading .options ul li:hover:last-child, body .search_video .half:first-
 body .about .half:first-child .button-pinky, body .newsletter .full div span {
   background-color: #ff6969;
   border-radius: 5px;
-  padding: 15px;
+  padding: 10px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -50,7 +50,7 @@ body .mec .button-pinky_outline, .button-pinky-outline {
   background-color: #fff;
   border: 2px solid #ff6969;
   border-radius: 5px;
-  padding: 15px;
+  padding: 10px;
   color: #ff6969;
   text-transform: uppercase;
 }
