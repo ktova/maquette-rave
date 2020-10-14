@@ -638,6 +638,7 @@ body .newsletter .full div {
   display: -ms-flexbox;
   display: flex;
   width: 50%;
+  margin: 20px auto;
 }
 
 /* Footer */
