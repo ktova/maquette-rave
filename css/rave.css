@@ -653,20 +653,20 @@ body .deals .headbtn h2 {
   text-align: left;
 }
 
-body .deals .tab {
+body .deals .full .tab {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border: 1px solid #8a8a8a;
 }
 
-body .deals .tab .tabindex {
-  width: 18%;
+body .deals .full .tab .tabindex {
+  width: 20%;
   color: #8a8a8a;
 }
 
-body .deals .tab .tabindex + .tabindex {
-  margin-left: 2%;
+body .deals .full .tab .tabindex + .tabindex {
+  margin-left: 10%;
 }
 
 body .inspire .headbtn {
