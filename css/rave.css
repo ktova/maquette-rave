@@ -34,7 +34,7 @@ header .heading .options ul li:hover:last-child, body .search_video .half:first-
   cursor: pointer;
 }
 
-body .about .half:first-child .button-pinky, body .newsletter .full div span {
+body .about .half:first-child .button-pinky, body .tab-container .tab-section .tab-item .tab-item-content .button-pinky, body .newsletter .full div span {
   background-color: #ff6969;
   border-radius: 5px;
   padding: 10px 20px;
@@ -43,7 +43,7 @@ body .about .half:first-child .button-pinky, body .newsletter .full div span {
   max-height: 50px;
 }
 
-body .about .half:first-child .button-pinky:hover, body .newsletter .full div span:hover {
+body .about .half:first-child .button-pinky:hover, body .tab-container .tab-section .tab-item .tab-item-content .button-pinky:hover, body .newsletter .full div span:hover {
   cursor: pointer;
 }
 
@@ -630,7 +630,7 @@ body .gdi .gallery .gallery-quarter:nth-child(odd) span:last-child {
 }
 
 body .deals {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -658,6 +658,7 @@ body .tab {
   display: -ms-flexbox;
   display: flex;
   border-bottom: 1px solid #8a8a8a;
+  margin-bottom: 25px;
 }
 
 body .tab .tabactive {
@@ -674,6 +675,49 @@ body .tab .tabindex {
 
 body .tab .tabindex:hover {
   cursor: pointer;
+}
+
+body .tab-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+body .tab-container .tab-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .tab-container .tab-section .tab-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  widows: 48%;
+}
+
+body .tab-container .tab-section .tab-item img {
+  height: 100%;
+}
+
+body .tab-container .tab-section .tab-item .tab-item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .tab-container .tab-section .tab-item .tab-item-content span {
+  margin: 15px 0 25px 0;
 }
 
 body .inspire .headbtn {
