@@ -653,19 +653,19 @@ body .deals .headbtn h2 {
   text-align: left;
 }
 
-body .deals .full .tab {
+body .tab {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border: 1px solid #8a8a8a;
 }
 
-body .deals .full .tab .tabindex {
+body .tab .tabindex {
   width: 20%;
   color: #8a8a8a;
 }
 
-body .deals .full .tab .tabindex + .tabindex {
+body .tab .tabindex + .tabindex {
   margin-left: 10%;
 }
 
