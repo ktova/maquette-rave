@@ -873,6 +873,12 @@ body .newsletter .full div span {
 }
 
 /* Footer */
+footer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 footer section .footer-menu {
   width: 100%;
   display: -webkit-box;
