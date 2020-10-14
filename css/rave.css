@@ -629,6 +629,9 @@ body .gdi .gallery .gallery-quarter:nth-child(odd) span:last-child {
 
 body .deals {
   margin-bottom: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body .deals .headbtn {
@@ -639,6 +642,7 @@ body .deals .headbtn {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: left;
 }
 
 body .inspire .headbtn {
