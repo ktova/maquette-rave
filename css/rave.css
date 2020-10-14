@@ -665,15 +665,15 @@ body .tab .tabactive {
   border-bottom: 1px solid #ff6969;
 }
 
-body .tab .tabactive:hover {
-  cursor: pointer;
-}
-
 body .tab .tabindex {
   width: 20%;
   padding-bottom: 10px;
   color: #8a8a8a;
   text-transform: uppercase;
+}
+
+body .tab .tabindex:hover {
+  cursor: pointer;
 }
 
 body .inspire .headbtn {
