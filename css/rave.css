@@ -558,6 +558,25 @@ body .gdi .gallery span {
   font-weight: 700;
   font-size: 30px;
   text-shadow: 1px 2px 2px #000;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .gdi .gallery span h5, body .gdi .gallery span h6 {
+  margin: 0;
+}
+
+body .gdi .gallery span h6 {
+  color: #fff;
+}
+
+body .gdi .gallery span h5 {
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
 
 body .gdi .gallery .gallery-half {
