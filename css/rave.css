@@ -657,7 +657,7 @@ body .tab {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid #8a8a8a;
+  border-bottom: 1px solid #8a8a8a;
 }
 
 body .tab .tabindex {
@@ -666,7 +666,7 @@ body .tab .tabindex {
 }
 
 body .tab .tabindex + .tabindex {
-  margin-left: 10%;
+  margin-left: 3%;
 }
 
 body .inspire .headbtn {
