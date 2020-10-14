@@ -703,11 +703,12 @@ body .tab-container .tab-section .tab-item {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 body .tab-container .tab-section .tab-item .tab-img {
-  width: 25%;
+  border-radius: 5px;
+  width: 33%;
 }
 
 body .tab-container .tab-section .tab-item .tab-img img {
@@ -716,7 +717,7 @@ body .tab-container .tab-section .tab-item .tab-img img {
 }
 
 body .tab-container .tab-section .tab-item .tab-item-content {
-  width: 73%;
+  width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
