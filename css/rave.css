@@ -702,7 +702,7 @@ body .tab-container .tab-section .tab-item {
   widows: 48%;
 }
 
-body .tab-container .tab-section .tab-item img {
+body .tab-container .tab-section .tab-item .tab-img img {
   height: 100%;
 }
 
