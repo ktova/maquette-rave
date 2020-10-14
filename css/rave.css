@@ -113,6 +113,15 @@ header .text-pinky {
 }
 
 /* Body Section */
+body {
+  /* Search Video */
+  /* About */
+  /* Money Explore Carousel */
+  /* Testimonials */
+  /* Gallery Deals Travel */
+  /* Newsletter */
+}
+
 body section {
   padding: 50px 15% 50px 15%;
   display: -webkit-box;
@@ -618,17 +627,27 @@ body .gdi .gallery .gallery-quarter:nth-child(odd) span:last-child {
   background: url("https://images.unsplash.com/photo-1562874702-420f9992d682?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
 }
 
-body .headbtn {
+body .deals {
+  margin-bottom: 50px;
+}
+
+body .deals .headbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .inspire .headbtn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-body .deals {
-  margin-bottom: 50px;
 }
 
 body .newsletter .full {
