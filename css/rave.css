@@ -711,7 +711,8 @@ body .tab-container .tab-section .tab-item .tab-img {
 }
 
 body .tab-container .tab-section .tab-item .tab-img img {
-  max-height: 250px;
+  width: 100px;
+  height: 100px;
 }
 
 body .tab-container .tab-section .tab-item .tab-item-content {
