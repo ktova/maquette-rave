@@ -874,6 +874,7 @@ body .newsletter .full div span {
 
 /* Footer */
 footer section .footer-menu {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
