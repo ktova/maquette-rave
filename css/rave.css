@@ -40,7 +40,7 @@ body .about .half:first-child .button-pinky, body .newsletter .full div span {
   padding: 10px 20px;
   color: #fff;
   text-transform: uppercase;
-  max-height: 48px;
+  max-height: 50px;
 }
 
 body .about .half:first-child .button-pinky:hover, body .newsletter .full div span:hover {
@@ -54,7 +54,7 @@ body .mec .button-pinky_outline, .button-pinky-outline {
   padding: 10px 20px;
   color: #ff6969;
   text-transform: uppercase;
-  max-height: 48px;
+  max-height: 50px;
 }
 
 body .mec .button-pinky_outline:hover, .button-pinky-outline:hover {
