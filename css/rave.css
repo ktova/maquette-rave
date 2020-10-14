@@ -630,7 +630,7 @@ body .gdi .gallery .gallery-quarter:nth-child(odd) span:last-child {
 }
 
 body .deals {
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -662,12 +662,8 @@ body .tab {
 
 body .tab .tabindex {
   width: 20%;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   color: #8a8a8a;
-}
-
-body .tab .tabindex + .tabindex {
-  margin-left: 3%;
 }
 
 body .inspire .headbtn {
