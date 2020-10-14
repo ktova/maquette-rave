@@ -641,4 +641,16 @@ body .newsletter .full div {
   margin: 20px auto;
 }
 
+body .newsletter .full div input, body .newsletter .full div button {
+  height: 50px;
+}
+
+body .newsletter .full div input {
+  width: 75%;
+}
+
+body .newsletter .full div button {
+  width: 25%;
+}
+
 /* Footer */
