@@ -618,6 +618,15 @@ body .gdi .gallery .gallery-quarter:nth-child(odd) span:last-child {
   background: url("https://images.unsplash.com/photo-1562874702-420f9992d682?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
 }
 
+body .headbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 body .newsletter .full {
   display: -webkit-box;
   display: -ms-flexbox;
