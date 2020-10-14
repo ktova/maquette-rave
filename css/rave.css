@@ -774,6 +774,8 @@ body .writtings div h6 {
   color: #8a8a8a;
   text-align: left;
   text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 body .writtings div span:first-child {
@@ -788,7 +790,7 @@ body .writtings div span:first-child {
 }
 
 body .writtings div span, body .writtings div span:nth-child(2) {
-  margin-top: 20px;
+  margin-top: 15px;
   color: #8a8a8a;
 }
 
