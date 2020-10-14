@@ -647,6 +647,9 @@ body .deals .headbtn {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+body .deals .headbtn h2 {
   text-align: left;
 }
 
