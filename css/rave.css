@@ -777,6 +777,8 @@ body .writtings div h6 {
 }
 
 body .writtings div span:first-child {
+  height: 200px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -785,7 +787,7 @@ body .writtings div span:first-child {
   margin-bottom: 10px;
 }
 
-body .writtings div span + span {
+body .writtings div span, body .writtings div span:nth-child(2) {
   margin-top: 20px;
   color: #8a8a8a;
 }
