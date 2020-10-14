@@ -665,6 +665,10 @@ body .tab .tabactive {
   border-bottom: 1px solid #ff6969;
 }
 
+body .tab .tabactive:hover {
+  cursor: pointer;
+}
+
 body .tab .tabindex {
   width: 20%;
   padding-bottom: 10px;
