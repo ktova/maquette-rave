@@ -629,6 +629,9 @@ body .gdi .gallery .gallery-quarter:nth-child(odd) span:last-child {
 
 body .deals {
   margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
