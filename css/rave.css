@@ -34,7 +34,7 @@ header .heading .options ul li:hover:last-child, body .search_video .half:first-
   cursor: pointer;
 }
 
-body .about .half:first-child .button-pinky, body .headbtn .button-pinky, body .newsletter .full div span {
+body .about .half:first-child .button-pinky, body .newsletter .full div span {
   background-color: #ff6969;
   border-radius: 2px;
   padding: 15px;
@@ -42,11 +42,11 @@ body .about .half:first-child .button-pinky, body .headbtn .button-pinky, body .
   text-transform: uppercase;
 }
 
-body .about .half:first-child .button-pinky:hover, body .headbtn .button-pinky:hover, body .newsletter .full div span:hover {
+body .about .half:first-child .button-pinky:hover, body .newsletter .full div span:hover {
   cursor: pointer;
 }
 
-body .mec .button-pinky_outline {
+body .mec .button-pinky_outline, .button-pinky-outline {
   background-color: #fff;
   border: 2px solid #ff6969;
   border-radius: 2px;
@@ -55,7 +55,7 @@ body .mec .button-pinky_outline {
   text-transform: uppercase;
 }
 
-body .mec .button-pinky_outline:hover {
+body .mec .button-pinky_outline:hover, .button-pinky-outline:hover {
   cursor: pointer;
 }
 
