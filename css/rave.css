@@ -566,13 +566,17 @@ body .gdi .gallery span {
 
 body .gdi .gallery span h5, body .gdi .gallery span h6 {
   margin: 0;
+  text-shadow: none;
 }
 
 body .gdi .gallery span h6 {
   color: #fff;
+  margin-bottom: 10px;
 }
 
 body .gdi .gallery span h5 {
+  text-transform: uppercase;
+  font-size: 14px;
   color: #000;
   background-color: #fff;
   border-radius: 5px;
