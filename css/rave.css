@@ -711,8 +711,8 @@ body .tab-container .tab-section .tab-item .tab-img {
 }
 
 body .tab-container .tab-section .tab-item .tab-img img {
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
 }
 
 body .tab-container .tab-section .tab-item .tab-item-content {
@@ -728,6 +728,10 @@ body .tab-container .tab-section .tab-item .tab-item-content {
 
 body .tab-container .tab-section .tab-item .tab-item-content span {
   margin: 15px 0 25px 0;
+}
+
+body .tab-container .tab-section .tab-item .tab-item-content .button-pinky {
+  margin: 0 auto 0 0;
 }
 
 body .inspire .headbtn {
