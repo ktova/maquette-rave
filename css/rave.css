@@ -541,10 +541,6 @@ body .gdi h6 {
   margin-top: 10px;
 }
 
-body .gdi .gallery-hidden {
-  display: none !important;
-}
-
 body .gdi .gallery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -869,6 +865,10 @@ body .newsletter .full div input {
 body .newsletter .full div span {
   width: 25%;
   font-size: 12px;
+}
+
+.gallery-hidden {
+  display: none !important;
 }
 
 /* Footer */
