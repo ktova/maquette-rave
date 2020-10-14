@@ -696,7 +696,6 @@ body .tab-container .tab-section {
 }
 
 body .tab-container .tab-section .tab-item {
-  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -704,6 +703,7 @@ body .tab-container .tab-section .tab-item {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 body .tab-container .tab-section .tab-item .tab-img {
