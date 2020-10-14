@@ -683,6 +683,10 @@ body .tab-container {
   display: flex;
 }
 
+body .tab-container .tab-hidden {
+  display: none !important;
+}
+
 body .tab-container .tab-section {
   display: -webkit-box;
   display: -ms-flexbox;
