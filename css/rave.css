@@ -661,7 +661,7 @@ body .tab {
 }
 
 body .tab .tabactive {
-  color: #ff6969;
+  color: #ff6969 !important;
   border-bottom: 1px solid #ff6969;
 }
 
