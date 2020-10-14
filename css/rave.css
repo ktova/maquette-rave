@@ -618,7 +618,7 @@ body .gdi .gallery .gallery-quarter:nth-child(odd) span:last-child {
   background: url("https://images.unsplash.com/photo-1562874702-420f9992d682?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
 }
 
-body .newsletter {
+body .newsletter .full {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -628,11 +628,11 @@ body .newsletter {
           flex-direction: column;
 }
 
-body .newsletter h2, body .newsletter span {
+body .newsletter .full h2, body .newsletter .full span {
   text-align: center;
 }
 
-body .newsletter div {
+body .newsletter .full div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
