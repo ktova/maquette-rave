@@ -699,7 +699,14 @@ body .tab-container .tab-section .tab-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  widows: 48%;
+  width: 48%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .tab-container .tab-section .tab-item .tab-img {
+  width: 25%;
 }
 
 body .tab-container .tab-section .tab-item .tab-img img {
@@ -707,6 +714,7 @@ body .tab-container .tab-section .tab-item .tab-img img {
 }
 
 body .tab-container .tab-section .tab-item .tab-item-content {
+  width: 73%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
