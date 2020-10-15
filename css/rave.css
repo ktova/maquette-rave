@@ -833,6 +833,14 @@ body .writtings div {
   width: 30%;
 }
 
+body .writtings div h5 + h5 {
+  color: #ff6969;
+}
+
+body .writtings div h5 + h5:hover {
+  cursor: pointer;
+}
+
 body .writtings div h6 {
   color: #8a8a8a;
   text-align: left;
