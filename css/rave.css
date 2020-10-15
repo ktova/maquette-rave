@@ -927,3 +927,11 @@ footer section .full {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+footer section .full nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
