@@ -105,6 +105,12 @@ header .heading nav ul li + li {
 header .heading nav ul li {
   display: inline;
   cursor: pointer;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+header .heading nav ul li:hover {
+  color: #ff6969;
 }
 
 header .heading .options {
@@ -118,6 +124,15 @@ header .heading .options ul li + li {
 header .heading .options ul li {
   display: inline;
   cursor: pointer;
+}
+
+header .heading .options ul li:not:last-child {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+header .heading .options ul li:not:last-child:hover {
+  color: #ff6969;
 }
 
 header .text-pinky {
