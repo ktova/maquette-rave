@@ -1,0 +1,671 @@
+$white: #fff
+$grey-fff: #f5f6f7
+$grey-f6: #f6f6f6
+$grey-d: #dddddd
+$grey-b: #bbbbbb
+$grey-a: #aaaaaa
+$grey-9a: #9a9a9a
+$grey-8a: #8a8a8a
+$grey-6: #666666
+$dark-2: #222222
+$dark-01: rgba(0, 0, 0, 1)
+$dark-0: #000
+$pinky: #ff6969
+$jellow: #ffcb3e
+
+$font-stack: neuzeit-grotesk, sans-serif
+
+*
+  font-family: $font-stack
+  box-sizing: border-box
+
+h1, h2, h3, h4, h5, h6
+  margin: 0
+
+h1
+  font-weight: 700
+  font-size: 45px
+
+h2
+  font-weight: 700
+
+ul
+  list-style-type: none
+  margin: 0 
+  padding: 0
+
+%button-dark
+  background-color: $dark-0
+  opacity: 0.7
+  border-radius: 2px
+  padding: 10px
+
+  &:hover
+    cursor: pointer
+
+%button-pinky
+  background-color: $pinky
+  border-radius: 5px
+  padding: 10px 20px
+  color: $white
+  text-transform: uppercase
+  max-height: 50px
+
+  &:hover
+    cursor: pointer
+
+%button-pinky-outline
+  background-color: $white
+  border: 2px solid $pinky
+  border-radius: 5px
+  padding: 10px 20px
+  color: $pinky
+  text-transform: uppercase
+  max-height: 50px
+
+  &:hover
+    cursor: pointer
+
+/* Menu */
+
+header
+  background-color: $grey-6
+  color: $white
+  font-size: 14px
+  background: url('https://images.unsplash.com/photo-1493515322954-4fa727e97985?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')
+  background-size: cover
+
+  .heading
+    width: 90%
+    margin: auto
+    padding: 2rem 0 2rem 0
+    align-items: center
+
+    div
+      margin:auto
+
+      img
+        cursor: pointer
+
+    nav
+      font-weight: 700
+      width: 60%
+
+      ul
+        li+li
+          margin-left: 10px
+
+        li
+          display: inline
+          cursor: pointer
+
+    .options
+      font-size: 14px      
+
+      ul
+        li+li
+          margin-left: 10px  
+
+        li
+          display: inline
+          cursor: pointer
+
+        li:last-child
+          @extend %button-dark
+
+  .text-pinky
+    color: $pinky
+
+/* Body Section */
+
+body
+
+  section
+    padding: 50px 15% 50px 15%
+    display: flex
+
+    .half
+      width: 45%
+      position: relative
+      display: flex
+
+    .full
+      width: 100%
+   
+  .search_video, .newsletter
+    background-color: $grey-6
+
+  .mec, .gdi
+    background-color: $white
+
+  .testimonials, .about
+    background-color: $grey-f6
+
+  /* Search Video */
+  .search_video
+    background-color: rgba(0, 0, 0, 0)
+
+    .half:first-child
+      flex-direction: column
+
+      img
+        position: absolute
+        top: -10px
+        left: -20px
+        z-index: 1
+
+      h1, span
+        color: $white
+        position: relative
+        z-index: 2
+
+      h1
+        max-width: 400px
+      
+      .button-dark
+        @extend %button-dark
+        margin-top: 10px
+        width: auto
+        margin-right: auto
+
+      .input-group
+        margin-top: 25px
+
+        i
+          position: absolute
+          z-index: 4
+          right: 20px
+          top: 12px
+          color: $grey-6
+
+    .half:last-child
+      margin-left: 10%
+
+      div
+        display: flex
+        flex-direction: column
+        align-items: center
+        position: absolute
+        right: 0
+        top: 0
+
+        i
+          color: $pinky
+          height: 50px
+          width: 50px
+          justify-content: center
+          display: flex
+          align-items: center
+          background-color: white
+          border-radius: 50px
+          margin-bottom: 10px
+          cursor: pointer
+
+        span
+          text-transform: uppercase
+          color: $white
+
+  /* About */
+  .about
+    .half:first-child
+      flex-direction: column
+
+      h2
+        margin-bottom: 35px
+        a
+          color: $pinky
+      
+      span + span
+        margin-top: 25px
+
+      .button-pinky
+        @extend %button-pinky
+        margin-top: 35px
+        width: auto
+        margin-right: auto
+
+    .half:last-child
+      margin-left: 10%
+
+      div
+        width: 49%
+
+        span
+          display: flex
+          background-color: $grey-6
+          justify-content: center
+          align-items: center
+
+        span:first-child
+          width: 100%
+          height: 250px
+
+        span:last-child
+          width: 75%
+          height: 170px
+
+        span + span
+          margin-top: 5px
+
+      div:first-child
+        display: flex
+        align-items: center
+
+      div + div
+        margin-left: 2%
+      
+      .left-section
+        span
+          background-size: contain
+          background: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')
+
+      .right-section
+        span:first-child
+          background-size: contain
+          background: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80')
+
+        span:last-child
+          background-size: contain
+          background: url('https://images.unsplash.com/photo-1600854792185-b825c0fdce07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80')
+
+  /* Money Explore Carousel */
+  .mec
+    flex-direction: column
+
+    .full + .full
+      margin-top: 50px
+
+    .full:first-child, .full:nth-child(2)
+
+      h2
+        text-align: center
+    
+    .full
+      h2
+        margin-bottom: 50px
+
+    .money
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+
+      .money_item
+        width: 23%
+        text-align: center
+
+        h5
+          font-weight: 900
+          margin: 30px 0
+
+    .explore
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+      margin-bottom: 50px
+
+      .explore_item
+        width: 23%
+        text-align: left
+
+        h5
+          font-weight: 700
+          margin-top: 15px
+        
+        h6
+          font-weight: 700
+          color: $grey-9a
+          margin: 10px 0 15px 0
+          text-transform: uppercase
+        
+        span:first-child
+          display: inline-flex
+          width: 100%
+          height: 300px
+          background-color: $dark-2
+
+        span
+          color: $grey-8a
+
+        &:nth-child(1)
+          span:first-child
+            background: url('https://images.unsplash.com/photo-1541779808802-844b1b586a81?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80')
+            background-size: cover
+
+        &:nth-child(2)
+          span:first-child
+            background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fab%2Fa8%2F81%2Faba8817fe1d74aba6253889497bb7313.gif&f=1&nofb=1')
+            background-size: contain
+
+        &:nth-child(3)
+          span:first-child
+            background: url('https://images.unsplash.com/photo-1527838832700-5059252407fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60')
+            background-size: cover
+
+        &:nth-child(4)
+          span:first-child
+            background: url('https://images.unsplash.com/photo-1506104489822-562ca25152fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80')
+            background-size: cover
+    
+    .button-pinky_outline
+      @extend %button-pinky-outline
+      margin-top: 35px
+      width: auto
+      margin: auto
+      margin-bottom: 50px
+
+  /* Testimonials */
+  .testimonials
+    flex-wrap: wrap
+    flex-direction: column
+
+    div
+      display: flex
+      justify-content: space-between
+
+      .half
+        flex-direction: column
+        text-align: left
+
+        i
+          color: $grey-9a
+
+        span
+          margin: 20px 0
+
+        .testimonials_persona
+          display: flex
+          margin-right: auto
+
+          img
+            width: 40px
+            height: 40px
+            margin-right: 10px
+            border-radius: 50%
+
+          .persona_infos
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column
+
+            h6:first-child
+              font-weight: 700
+
+            h6 + h6
+              color: $grey-a
+
+    .full
+      display: flex
+      margin-top: 50px
+      justify-content: center
+      padding: 20px
+      background-color: $white
+
+  /* Gallery Deals Travel */
+  .gdi
+    display: flex
+    flex-direction: column
+
+    h2, h6
+      text-align: center
+
+    h6
+      color: $grey-a
+      margin-top: 10px
+
+    .gallery
+      display: flex
+      justify-content: space-between
+      height: 400px
+      margin: 50px 0
+      text-align: center
+
+      span
+        color: $white
+        font-weight: 700
+        font-size: 30px
+        text-shadow: 1px 2px 2px $dark-0
+        flex-direction: column
+
+        h5, h6
+          margin: 0
+
+        h6
+          color: $white
+          margin-bottom: 5px
+        h5
+          text-transform: uppercase
+          text-shadow: none
+          font-size: 14px
+          font-weight: 700
+          color: $dark-0
+          background-color: $white
+          border-radius: 5px
+          padding: 10px 20px
+
+          &:hover
+            cursor: pointer
+
+      .gallery-half
+        width: 48%
+        display: flex
+
+        span
+          width: 100%
+          height: 100%
+          display: inline-flex
+          justify-content: center
+          align-items: center
+          border-radius: 5px
+          background-size: cover !important
+          background-position: center center
+      
+      .gallery-quarter
+        width: 23%
+        display: flex
+        flex-direction: column
+
+        span
+          width: 100%
+          background-size: cover
+          background-position: center center
+      
+      .gallery-quarter
+        span
+          display: inline-flex
+          justify-content: center
+          align-items: center
+          background-size: cover !important
+          background-position: center center
+
+      .gallery-quarter:nth-child(even)
+        span:first-child
+          height: 32%
+          margin-bottom: auto
+        
+        span:last-child
+          height: 64%
+
+      .gallery-quarter:nth-child(odd)
+        span:first-child
+          height: 64%
+          margin-bottom: auto
+        
+        span:last-child
+          height: 32%
+
+  .deals
+    margin-bottom: 25px    
+    display: flex
+    justify-content: space-between
+
+    .headbtn
+      display: flex
+      flex-direction: column
+      h2
+        text-align: left
+      
+  .tab
+    display: flex
+    border-bottom: 1px solid $grey-8a
+    margin-bottom: 25px
+
+    .tabactive
+      color: $pinky !important
+      border-bottom: 1px solid $pinky
+
+    .tabindex
+      width: 20%
+      padding-bottom: 10px
+      color: $grey-8a
+      text-transform: uppercase      
+
+      &:hover
+        cursor: pointer
+    
+  .tab-container
+    display: flex
+
+    .tab-hidden
+      display: none !important
+
+    .tab-section
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+
+      .tab-item
+        display: flex
+        width: 48%
+        justify-content: space-between
+        margin-bottom: 50px
+
+        .tab-img
+          border-radius: 5px
+          width: 33%
+          span
+            display: inline-flex
+            background-size: cover !important
+            background-position: center center
+            width: 100%
+            height: 100%
+
+        .tab-item-content
+          width: 65%
+          display: flex
+          flex-direction: column
+
+          span
+            margin: 15px 0 25px 0
+
+          .button-pinky
+            margin: 0 auto 0 0
+            @extend %button-pinky
+
+  .inspire
+    .headbtn
+      display: flex
+      justify-content: space-between
+      margin-bottom: 25px
+
+  .writtings
+    display: flex
+    margin-bottom: 25px
+    justify-content: space-between
+
+    div
+      display: flex
+      flex-direction: column
+      width: 30%
+
+      h6
+        color: $grey-8a
+        text-align: left
+        text-transform: uppercase
+        font-size: 12px
+        font-weight: 700
+
+      span
+        &:first-child
+          height: 200px
+          width: 100%
+          display: inline-flex
+          background-size: cover !important
+          background-position: center center
+          margin-bottom: 10px
+
+      span , span:nth-child(2)
+        margin-top: 15px
+        color: $grey-8a
+
+  /* Newsletter */
+  .newsletter
+    .full
+      display: flex
+      flex-direction: column
+
+      h2, span
+        text-align: center
+        color: $white
+
+      div
+        display: flex
+        width: 50%
+        margin: 20px auto
+
+        input, span
+          height: 50px
+          border-radius: 0
+
+        input
+          width: 75%
+
+        span
+          @extend %button-pinky
+          width: 25%
+          font-size: 12px
+          display: flex
+          align-items: center
+
+/* Extra */
+
+.gallery-hidden
+  display: none !important
+
+.button-pinky-outline
+  @extend %button-pinky-outline
+
+/* Footer */
+footer
+  section
+    display: flex
+    flex-direction: column
+
+    .footer-menu
+      width: 100%
+      display: flex
+      justify-content: space-between
+      margin-bottom: 50px
+
+      div
+        width: 20%
+        display: flex
+        flex-direction: column
+        
+        h5
+          margin-bottom: 20px
+          font-weight: 700
+
+        span 
+          color: $grey-8a
+          margin: 10px 0
+
+        i
+          color: $dark-0
+
+    .full
+      display: flex
+      justify-content: space-between
+
+      nav
+        display: flex
+        justify-content: space-around
