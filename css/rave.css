@@ -126,15 +126,6 @@ header .heading .options ul li {
   cursor: pointer;
 }
 
-header .heading .options ul li:not:last-child {
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s;
-}
-
-header .heading .options ul li:not:last-child:hover {
-  color: #ff6969;
-}
-
 header .text-pinky {
   color: #ff6969;
 }
