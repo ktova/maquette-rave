@@ -970,11 +970,20 @@ footer section .full {
           justify-content: space-between;
 }
 
+footer section .full .lovicon {
+  color: #ff6969;
+}
+
 footer section .full nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  color: #8a8a8a;
+}
+
+footer section .full nav span + span {
+  margin-left: 15px;
 }
 /*# sourceMappingURL=rave.css.map */
