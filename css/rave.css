@@ -413,6 +413,10 @@ body .mec .explore .explore_item {
   text-align: left;
 }
 
+body .mec .explore .explore_item:hover {
+  cursor: pointer;
+}
+
 body .mec .explore .explore_item h5 {
   font-weight: 700;
   margin-top: 15px;
