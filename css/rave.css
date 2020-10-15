@@ -726,10 +726,14 @@ body .tab .tabindex {
   padding-bottom: 10px;
   color: #8a8a8a;
   text-transform: uppercase;
+  -webkit-transition: color 0.2s, border-bottom 0.2s;
+  transition: color 0.2s, border-bottom 0.2s;
 }
 
 body .tab .tabindex:hover {
   cursor: pointer;
+  color: #ff6969;
+  border-bottom: 1px solid #ff6969;
 }
 
 body .tab-container {
