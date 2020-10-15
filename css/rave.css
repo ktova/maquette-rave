@@ -967,10 +967,13 @@ footer section .footer-menu div h5 {
 footer section .footer-menu div span {
   color: #8a8a8a;
   margin: 10px 0;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
 }
 
 footer section .footer-menu div span:hover {
   cursor: pointer;
+  color: #ff6969;
 }
 
 footer section .footer-menu div i {
@@ -999,8 +1002,14 @@ footer section .full nav {
       justify-content: space-around;
 }
 
+footer section .full nav span {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
 footer section .full nav span:hover {
   cursor: pointer;
+  color: #ff6969;
 }
 
 footer section .full nav span + span {
