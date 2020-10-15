@@ -972,9 +972,6 @@ footer section .full {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-footer section .full:first-child {
   color: #8a8a8a;
 }
 
@@ -988,7 +985,6 @@ footer section .full nav {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  color: #8a8a8a;
 }
 
 footer section .full nav span:hover {
