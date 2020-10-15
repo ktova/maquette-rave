@@ -254,6 +254,13 @@ body .search_video .half:last-child div i {
   border-radius: 50px;
   margin-bottom: 10px;
   cursor: pointer;
+  -webkit-transition: color 0.2s, background-color 0.2s;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+body .search_video .half:last-child div i:hover {
+  color: #fff;
+  background-color: #ff6969;
 }
 
 body .search_video .half:last-child div span {
