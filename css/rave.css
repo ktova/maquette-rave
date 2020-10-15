@@ -974,6 +974,10 @@ footer section .full {
           justify-content: space-between;
 }
 
+footer section .full:first-child {
+  color: #8a8a8a;
+}
+
 footer section .full .lovicon {
   color: #ff6969;
 }
