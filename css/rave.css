@@ -591,6 +591,10 @@ body .gdi .gallery span {
           flex-direction: column;
 }
 
+body .gdi .gallery span:hover {
+  cursor: pointer;
+}
+
 body .gdi .gallery span h5, body .gdi .gallery span h6 {
   margin: 0;
 }
