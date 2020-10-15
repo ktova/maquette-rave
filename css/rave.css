@@ -983,6 +983,10 @@ footer section .full nav {
   color: #8a8a8a;
 }
 
+footer section .full nav span:hover {
+  cursor: pointer;
+}
+
 footer section .full nav span + span {
   margin-left: 15px;
 }
