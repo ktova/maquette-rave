@@ -712,6 +712,10 @@ body .deals .headbtn h2 {
   text-align: left;
 }
 
+body .deals .headbtn span {
+  color: #8a8a8a;
+}
+
 body .tab {
   display: -webkit-box;
   display: -ms-flexbox;
