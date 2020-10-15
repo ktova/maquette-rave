@@ -835,9 +835,7 @@ body .writtings div {
 
 body .writtings div .read-more {
   font-size: 14px;
-  font-weight: 700;
   color: #ff6969;
-  margin-top: 10px;
 }
 
 body .writtings div .read-more:hover {
