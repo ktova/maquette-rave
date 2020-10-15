@@ -37,6 +37,7 @@ header .heading .options ul li:hover:last-child, body .search_video .half:first-
 body .about .half:first-child .button-pinky, body .tab-container .tab-section .tab-item .tab-item-content .button-pinky, body .newsletter .full div span {
   background-color: #ff6969;
   border-radius: 5px;
+  border: 2px solid pink;
   padding: 10px 20px;
   color: #fff;
   text-transform: uppercase;
