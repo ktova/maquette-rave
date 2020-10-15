@@ -905,6 +905,20 @@ footer section .footer-menu div {
           flex-direction: column;
 }
 
+footer section .footer-menu div h5 {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+footer section .footer-menu div span {
+  color: #8a8a8a;
+  margin: 10px 0;
+}
+
+footer section .footer-menu div i {
+  color: #000;
+}
+
 footer section .full {
   display: -webkit-box;
   display: -ms-flexbox;
