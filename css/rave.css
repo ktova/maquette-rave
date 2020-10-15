@@ -969,6 +969,10 @@ footer section .footer-menu div span {
   margin: 10px 0;
 }
 
+footer section .footer-menu div span:hover {
+  cursor: pointer;
+}
+
 footer section .footer-menu div i {
   color: #000;
 }
