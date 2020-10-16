@@ -1026,19 +1026,19 @@ footer section .full nav span + span {
 }
 
 /* Media Queries */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .item {
     width: 700px !important;
   }
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   .item {
     width: 500px !important;
   }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .item {
     width: 400px !important;
   }
