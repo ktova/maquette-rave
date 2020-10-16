@@ -8,7 +8,8 @@
     color: white;
 }
 
-.item_pricing{
+.item_pricing
+{
     display: flex;
     height: 50%;
 }

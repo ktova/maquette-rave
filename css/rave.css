@@ -44,6 +44,7 @@ body .about .half:first-child .button-pinky, body .tab-container .tab-section .t
   max-height: 50px;
   -webkit-transition: color 0.2s, background-color 0.2s, border 0.2s;
   transition: color 0.2s, background-color 0.2s, border 0.2s;
+  font-size: 14px;
 }
 
 body .about .half:first-child .button-pinky:hover, body .tab-container .tab-section .tab-item .tab-item-content .button-pinky:hover, body .newsletter .full div span:hover {
@@ -63,6 +64,7 @@ body .mec .button-pinky_outline, .button-pinky-outline {
   max-height: 50px;
   -webkit-transition: color 0.2s, background-color 0.2s;
   transition: color 0.2s, background-color 0.2s;
+  font-size: 14px;
 }
 
 body .mec .button-pinky_outline:hover, .button-pinky-outline:hover {
