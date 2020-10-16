@@ -762,7 +762,7 @@ body .tab {
 
 body .tab .tabactive {
   color: #ff6969 !important;
-  border-bottom: 1px solid #ff6969;
+  border-bottom-color: #ff6969;
 }
 
 body .tab .tabindex {
