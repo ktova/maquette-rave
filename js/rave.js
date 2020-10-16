@@ -10,17 +10,19 @@ $(window).on('load',function(){
     $('body').css('overflow','scroll');
 })
 
+// Owl Carousel functions
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+});
 
 // Reactive functions
 $('.gallery-item').hover(
     function(){
         var child = $(this).children();
         child.fadeIn(200);
-        //child.toggleClass('gallery-hidden');
     }  ,
     function(){
         var child = $(this).children();
         child.fadeOut(200);
-        //child.toggleClass('gallery-hidden');
     }
 )
