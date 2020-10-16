@@ -1143,5 +1143,15 @@ footer section .full nav span + span {
     width: 100% !important;
     margin-bottom: 20px !important;
   }
+  .inspire, .deals {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .inspire .headbtn .button-pinky-outline, .deals .headbtn .button-pinky-outline {
+    text-align: center;
+    margin-top: 10px !important;
+  }
 }
 /*# sourceMappingURL=rave.css.map */
