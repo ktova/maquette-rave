@@ -18,13 +18,7 @@ $(document).ready(function(){
             center: true,
             items:3,
             loop:true,
-            margin:10,
-            autoWidth: true
-            /*responsive:{
-                600:{
-                    items:4
-                }
-            }*/
+            margin:10
         }
     );
 });
