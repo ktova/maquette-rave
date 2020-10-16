@@ -15,11 +15,12 @@ $(window).on('load',function(){
 $('.gallery-item').hover(
     function(){
         var child = $(this).children();
-        console.log(child);
-        child.toggleClass('gallery-hidden');
+        child.fadeIn();
+        //child.toggleClass('gallery-hidden');
     }  ,
     function(){
         var child = $(this).children();
-        child.toggleClass('gallery-hidden');
+        child.fadeOut();
+        //child.toggleClass('gallery-hidden');
     }
 )

@@ -614,10 +614,13 @@ body .gdi .gallery span h5 {
   background-color: #fff;
   border-radius: 5px;
   padding: 10px 20px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 body .gdi .gallery span h5:hover {
   cursor: pointer;
+  background-color: #8a8a8a;
 }
 
 body .gdi .gallery .gallery-half {
