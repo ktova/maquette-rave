@@ -928,7 +928,7 @@ body .newsletter .full div span {
 }
 
 .back-cover {
-  background-size: cover;
+  background-size: cover !important;
 }
 
 /* Footer */
