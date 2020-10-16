@@ -11,8 +11,21 @@ $(window).on('load',function(){
 })
 
 // Owl Carousel functions
+// init
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
+    $(".owl-carousel").owlCarousel(
+        {
+            center: true,
+            items:3,
+            loop:true,
+            margin:10
+            /*responsive:{
+                600:{
+                    items:4
+                }
+            }*/
+        }
+    );
 });
 
 // Reactive functions
