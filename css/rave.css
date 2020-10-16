@@ -88,7 +88,7 @@ body .mec .button-pinky_outline:hover, .button-pinky-outline:hover {
           justify-content: center;
 }
 
-.pre-loader .pre-loader-container {
+.pre-loader .pre-load-container {
   margin-top: 50vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -160,6 +160,7 @@ header .text-pinky {
 
 /* Body Section */
 body {
+  overflow: hidden;
   /* Search Video */
   /* About */
   /* Money Explore Carousel */
