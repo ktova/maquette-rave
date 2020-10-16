@@ -1087,6 +1087,9 @@ footer section .full nav span + span {
   .money .money_item {
     width: 100% !important;
   }
+  .money .money_item + .money_item {
+    margin-top: 25px;
+  }
   .explore {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
