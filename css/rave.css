@@ -1078,5 +1078,14 @@ footer section .full nav span + span {
   .menu {
     display: none;
   }
+  .money {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .money .money-item {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=rave.css.map */
