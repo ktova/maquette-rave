@@ -16,7 +16,7 @@ $(document).ready(function(){
     $(".owl-carousel").owlCarousel(
         {
             center: true,
-            items:6,
+            items:3,
             loop:true,
             margin:10,
             autoWidth: true
