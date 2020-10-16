@@ -97,7 +97,10 @@ body .mec .button-pinky_outline:hover, .button-pinky-outline:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 50%;
+}
+
+.pre-loader .pre-load-container i {
+  margin: 30px auto;
 }
 
 header {
