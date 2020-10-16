@@ -434,10 +434,6 @@ body .mec .explore .explore_item {
   text-align: left;
 }
 
-body .mec .explore .explore_item:first-child {
-  background-size: cover;
-}
-
 body .mec .explore .explore_item:hover {
   cursor: pointer;
 }
@@ -455,6 +451,7 @@ body .mec .explore .explore_item h6 {
 }
 
 body .mec .explore .explore_item span:first-child {
+  background-size: cover;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
