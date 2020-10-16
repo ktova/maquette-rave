@@ -13,10 +13,10 @@ $(window).on('load',function(){
 
 // Reactive functions
 $('.gallery-item').hover(
-    function(){
-        console.log('test');
+    function(this){
+        this.children().fadeIn();
     }  ,
     function(){
-        console.log('bye');
+        this.children().fadeOut();
     }
     )
