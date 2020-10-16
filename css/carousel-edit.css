@@ -1,0 +1,22 @@
+.item
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    height: 350px;
+    background-size: cover;
+}
+
+.item_infos
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.item_data
+{
+    display: flex;
+    flex-direction: column;
+}
