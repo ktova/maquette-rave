@@ -1025,7 +1025,7 @@ footer section .full nav span + span {
   margin-left: 15px;
 }
 
-/* Media Queries */
+/* Media Queries Carousel */
 @media (max-width: 1200px) {
   .item {
     width: 700px !important;
@@ -1055,4 +1055,6 @@ footer section .full nav span + span {
     width: 300px !important;
   }
 }
+
+/* Media Queries Global */
 /*# sourceMappingURL=rave.css.map */
