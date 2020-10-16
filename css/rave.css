@@ -1020,6 +1020,7 @@ footer section .full {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: #8a8a8a;
+  font-size: 14px;
 }
 
 footer section .full .lovicon {
