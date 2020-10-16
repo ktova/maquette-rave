@@ -927,7 +927,7 @@ body .newsletter .full div span {
 
 /* Extra */
 .gallery-hidden {
-  display: none !important;
+  display: none;
 }
 
 .back-cover {
