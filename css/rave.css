@@ -434,6 +434,10 @@ body .mec .explore .explore_item {
   text-align: left;
 }
 
+body .mec .explore .explore_item:first-child {
+  background-size: cover;
+}
+
 body .mec .explore .explore_item:hover {
   cursor: pointer;
 }
@@ -461,22 +465,6 @@ body .mec .explore .explore_item span:first-child {
 
 body .mec .explore .explore_item span {
   color: #8a8a8a;
-}
-
-body .mec .explore .explore_item:nth-child(1) span:first-child {
-  background-size: cover;
-}
-
-body .mec .explore .explore_item:nth-child(2) span:first-child {
-  background-size: contain;
-}
-
-body .mec .explore .explore_item:nth-child(3) span:first-child {
-  background-size: cover;
-}
-
-body .mec .explore .explore_item:nth-child(4) span:first-child {
-  background-size: cover;
 }
 
 body .mec .button-pinky_outline {

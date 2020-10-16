@@ -334,6 +334,9 @@ body
         width: 23%
         text-align: left
 
+        &:first-child
+          background-size: cover
+
         &:hover
           cursor: pointer
 
@@ -355,23 +358,7 @@ body
 
         span
           color: $grey-8a
-
-        &:nth-child(1)
-          span:first-child
-            background-size: cover
-
-        &:nth-child(2)
-          span:first-child
-            background-size: contain
-
-        &:nth-child(3)
-          span:first-child
-            background-size: cover
-
-        &:nth-child(4)
-          span:first-child
-            background-size: cover
-    
+          
     .button-pinky_outline
       @extend %button-pinky-outline
       margin-top: 35px
