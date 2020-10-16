@@ -7,6 +7,10 @@
     background-size: cover;
 }
 
+.item_pricing{
+    display: flex;
+    height: 50%;
+}
 .item_infos
 {
     display: flex;
