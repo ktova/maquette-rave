@@ -9,3 +9,8 @@ $(window).on('load',function(){
     $('.pre-loader').fadeOut(1000);
     $('body').css('overflow','scroll');
 })
+
+// Reactive functions
+$('.gallery').on('hover',function(){
+    console.log('ok');
+})
