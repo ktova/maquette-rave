@@ -14,7 +14,7 @@ $(window).on('load',function(){
 // Reactive functions
 $('.gallery-item').hover(
     function(){
-        let child = this.children();
+        let child = $(this).children();
         child.fadeIn();
     }  ,
     function(){
