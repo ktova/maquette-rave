@@ -11,9 +11,8 @@ $(window).on('load',function(){
 })
 
 
-console.log($('.gallery-item'));
 // Reactive functions
-$('.gallery').hover(
+$('.gallery-item').hover(
     function(){
         console.log('test');
     }  ,
