@@ -805,8 +805,27 @@ footer
 
   .inspire, .deals
     display: flex !important
+    flex-direction: column !important
+  
+  .headbtn
+    .button-pinky-outline
+      text-align: center
+      margin-top: auto
+
+  .newsletter
+    .full
+      .div
+        width: 100% !important
+        flex-direction: column
+        input, span
+          width: 100% !important
+
+  .footer-menu
     flex-direction: column
-    .headbtn
-      .button-pinky-outline
-        text-align: center
-        margin-top: 10px !important
+    div
+      width: 100% !important
+
+  footer
+    section
+      .full
+        flex-direction: column

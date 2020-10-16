@@ -1147,14 +1147,39 @@ footer section .full nav span + span {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .headbtn .button-pinky-outline {
+    text-align: center;
+    margin-top: auto;
+  }
+  .newsletter .full .div {
+    width: 100% !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .inspire .headbtn .button-pinky-outline, .deals .headbtn .button-pinky-outline {
-    text-align: center;
-    margin-top: 10px !important;
+  .newsletter .full .div input, .newsletter .full .div span {
+    width: 100% !important;
+  }
+  .footer-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-menu div {
+    width: 100% !important;
+  }
+  footer section .full {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=rave.css.map */
