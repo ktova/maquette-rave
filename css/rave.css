@@ -1069,7 +1069,7 @@ footer section .full nav span + span {
             flex-direction: column;
   }
   section {
-    padding: 50px 10% 50px 10%;
+    padding: 50px 5% 50px 5%;
   }
   .half {
     width: 100% !important;
