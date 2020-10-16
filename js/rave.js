@@ -11,6 +11,11 @@ $(window).on('load',function(){
 })
 
 // Reactive functions
-$('.gallery').on('hover',function(){
-    console.log('ok');
-})
+$('.gallery').hover(
+    function(){
+        console.log('test');
+    }  ,
+    function(){
+        console.log('bye');
+    }
+    )
