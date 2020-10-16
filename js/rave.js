@@ -14,9 +14,10 @@ $(window).on('load',function(){
 // Reactive functions
 $('.gallery-item').hover(
     function(this){
-        this.children().fadeIn();
+        let child = this.children();
+        child.fadeIn();
     }  ,
     function(){
-        this.children().fadeOut();
+        child.fadeOut();
     }
-    )
+)
