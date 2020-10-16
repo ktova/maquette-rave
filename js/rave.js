@@ -16,9 +16,10 @@ $('.gallery-item').hover(
     function(){
         var child = $(this).children();
         console.log(child);
-        child.fadeIn();
+        child.toggleClass('gallery-hidden');
     }  ,
     function(){
-        child.fadeOut();
+        var child = $(this).children();
+        child.toggleClass('gallery-hidden');
     }
 )
