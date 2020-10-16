@@ -1057,4 +1057,21 @@ footer section .full nav span + span {
 }
 
 /* Media Queries Global */
+@media (max-width: 840px) {
+  .containeur {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .half {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .menu {
+    display: none;
+  }
+}
 /*# sourceMappingURL=rave.css.map */
