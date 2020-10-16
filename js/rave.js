@@ -13,7 +13,7 @@ $(window).on('load',function(){
 
 // Reactive functions
 $('.gallery-item').hover(
-    function(this){
+    function(){
         let child = this.children();
         child.fadeIn();
     }  ,
