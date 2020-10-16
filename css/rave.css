@@ -1189,6 +1189,9 @@ footer section .full nav span + span {
     margin-bottom: 15px;
     width: 100% !important;
   }
+  footer section {
+    text-align: center !important;
+  }
   footer section .full {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
