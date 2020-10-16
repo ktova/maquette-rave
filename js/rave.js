@@ -18,7 +18,7 @@ $(document).ready(function(){
             center: true,
             items:3,
             loop:true,
-            margin:10
+            margin:'auto'
         }
     );
 });
