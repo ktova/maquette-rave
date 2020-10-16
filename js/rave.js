@@ -1,5 +1,5 @@
 // Rave Scripts
-$(document).ready(function(){
+$(window).load(function(){
     $('.pre-loader').hide(100);
     $('.pre-loader').remove();
 })
