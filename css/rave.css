@@ -1144,6 +1144,9 @@ footer section .full nav span + span {
     margin-bottom: 20px !important;
   }
   .inspire, .deals {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
