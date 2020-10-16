@@ -548,6 +548,33 @@ body .testimonials .full {
           justify-content: center;
   padding: 20px;
   background-color: #fff;
+  /* Carousel */
+}
+
+body .testimonials .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 20px;
+  height: 350px;
+  width: 800px;
+  background-size: cover;
+}
+
+body .testimonials .item div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50%;
 }
 
 body .gdi {
@@ -1035,6 +1062,12 @@ footer section .full nav span + span {
 @media (max-width: 800px) {
   .item {
     width: 500px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .item {
+    width: 450px !important;
   }
 }
 
