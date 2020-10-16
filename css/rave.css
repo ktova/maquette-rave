@@ -1121,7 +1121,7 @@ footer section .full nav span + span {
     margin-bottom: 20px !important;
   }
   .tabindex {
-    width: 33%;
+    width: 33% !important;
   }
   .tab-section {
     -webkit-box-orient: vertical;
