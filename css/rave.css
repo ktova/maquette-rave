@@ -561,20 +561,12 @@ body .testimonials .item {
           flex-direction: column;
   padding: 20px 20px;
   height: 350px;
-  width: 800px;
   background-size: cover;
-}
-
-body .testimonials .item div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 50%;
+  /*div
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        height: 50%*/
 }
 
 body .gdi {
