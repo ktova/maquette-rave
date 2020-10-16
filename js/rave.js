@@ -18,7 +18,8 @@ $(document).ready(function(){
             center: true,
             items:3,
             loop:true,
-            margin:'auto'
+            autoWidth:true,
+            margin:20
         }
     );
 });
