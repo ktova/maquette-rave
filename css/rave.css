@@ -1087,6 +1087,15 @@ footer section .full nav span + span {
   .money .money_item {
     width: 100% !important;
   }
+  .explore {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .explore .explore_item {
+    width: 100% !important;
+  }
   .search_video .half:last-child {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
