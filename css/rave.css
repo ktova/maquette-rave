@@ -1163,6 +1163,7 @@ footer section .full nav span + span {
   }
   .headbtn h2, .headbtn span {
     text-align: center !important;
+    margin-bottom: 10px;
   }
   .headbtn .button-pinky-outline {
     text-align: center;
