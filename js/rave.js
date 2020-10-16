@@ -10,6 +10,8 @@ $(window).on('load',function(){
     $('body').css('overflow','scroll');
 })
 
+
+console.log($('.gallery-item'));
 // Reactive functions
 $('.gallery').hover(
     function(){
