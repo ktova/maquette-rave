@@ -1180,6 +1180,7 @@ footer section .full nav span + span {
 }
 
 .footer-menu div {
+  margin-bottom: 15px;
   width: 100% !important;
 }
 
