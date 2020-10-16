@@ -1097,7 +1097,7 @@ footer section .full nav span + span {
     width: 100% !important;
   }
   .explore .explore_item + .explore_item {
-    margin-bottom: 20px;
+    margin-top: 20px;
   }
   .search_video .half:last-child {
     -webkit-box-pack: center;
