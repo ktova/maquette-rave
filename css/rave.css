@@ -1084,7 +1084,7 @@ footer section .full nav span + span {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .money .money-item {
+  .money .money_item {
     width: 100% !important;
   }
   .search_video .half:last-child {
