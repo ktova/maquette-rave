@@ -726,10 +726,6 @@ body .deals .headbtn span {
   color: #8a8a8a;
 }
 
-body .deals span {
-  text-align: center;
-}
-
 body .tab {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1155,6 +1151,9 @@ footer section .full nav span + span {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
+  }
+  .inspire span, .deals span {
+    text-align: center;
   }
   .headbtn {
     display: -webkit-box !important;
