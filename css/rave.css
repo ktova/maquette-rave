@@ -1078,6 +1078,9 @@ footer section .full nav span + span {
   .menu {
     display: none;
   }
+  .button-pinky-outline {
+    text-align: center !important;
+  }
   .money {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1151,9 +1154,6 @@ footer section .full nav span + span {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
-  }
-  .inspire span, .deals span {
-    text-align: center !important;
   }
   .headbtn {
     display: -webkit-box !important;
