@@ -1153,7 +1153,7 @@ footer section .full nav span + span {
             flex-direction: column !important;
   }
   .inspire span, .deals span {
-    text-align: center;
+    text-align: center !important;
   }
   .headbtn {
     display: -webkit-box !important;
