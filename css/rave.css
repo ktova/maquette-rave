@@ -1081,6 +1081,9 @@ footer section .full nav span + span {
   .button-pinky-outline {
     text-align: center !important;
   }
+  .trustpilot-review {
+    max-width: 250px;
+  }
   .money {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
