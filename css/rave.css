@@ -726,6 +726,10 @@ body .deals .headbtn span {
   color: #8a8a8a;
 }
 
+body .deals span {
+  text-align: center;
+}
+
 body .tab {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1206,4 +1210,3 @@ footer section .full nav span + span {
     margin-bottom: 15px;
   }
 }
-/*# sourceMappingURL=rave.css.map */
