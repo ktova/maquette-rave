@@ -472,14 +472,6 @@ body .mec .button-pinky_outline {
   margin-bottom: 50px;
 }
 
-body .carousel .owl-carousel .item .item_pricing img {
-  position: absolute;
-}
-
-body .carousel .owl-carousel .item .item_pricing h3 {
-  color: #ff6969;
-}
-
 body .testimonials {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
