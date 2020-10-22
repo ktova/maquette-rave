@@ -49,7 +49,7 @@
     font-weight: 900;
     font-size: 24px;
 }
-.item_data > i{
+.item_data > h6 > i{
     color:gold;
     font-size: 12px;
 }
