@@ -42,6 +42,8 @@ $('.gallery-item').hover(
 // Get offers
 function getOffers(offer)
 {
+    $(this).css('border-bottom','4px solid #ff6969');
+    $(this).siblings().css('border-bottom','none');
     var tab = $('#'+offer+'');
     tab.toggleClass('tab-hidden');
     tab.siblings().addClass('tab-hidden');
