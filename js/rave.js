@@ -1,18 +1,21 @@
 // Rave Scripts
 
 // Pre-loader animation
-$(document).ready(function(){
+$(document).ready(function()
+{
     $(this).scrollTop(0);
 });
 
-$(window).on('load',function(){
+$(window).on('load',function()
+{
     $('.pre-loader').fadeOut(1000);
     $('body').css('overflow','scroll');
 })
 
 // Owl Carousel functions
 // init
-$(document).ready(function(){
+$(document).ready(function()
+{
     $(".owl-carousel").owlCarousel(
         {
             center: true,
@@ -35,3 +38,10 @@ $('.gallery-item').hover(
         child.fadeOut(200);
     }
 )
+
+// Get offers
+function getOffers(offer)
+{
+    var tab = $('.'+offer+'');
+    console.log(tab);
+}
