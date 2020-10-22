@@ -42,6 +42,6 @@ $('.gallery-item').hover(
 // Get offers
 function getOffers(offer)
 {
-    var tab = $('.'+offer+'');
+    var tab = $('#'+offer+'');
     console.log(tab);
 }
