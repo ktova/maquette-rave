@@ -48,6 +48,7 @@
 .item_data > h3{
     font-weight: 900;
     font-size: 24px;
+    margin-bottom: 5px;
 }
 .item_data > h6 > i{
     color:gold;
@@ -55,10 +56,12 @@
 }
 .item_data > h6{
     font-size: 12px;
+    margin-bottom: 5px;
 }
 .item_data > h4{
     font-size: 14px;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .item_bookbtn{
