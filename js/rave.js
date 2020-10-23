@@ -47,5 +47,7 @@ function getOffers(offer)
     div.removeClass('tab-hidden');
     div.siblings().addClass('tab-hidden');
     tab.css('border-bottom','4px solid #ff6969');
+    tab.addClass('tabactive');
     tab.siblings().css('border-bottom','none');
+    tab.siblings().removeClass('tabactive');
 }
