@@ -751,7 +751,6 @@ body .tab .tabindex {
 body .tab .tabindex:hover {
   cursor: pointer;
   color: #ff6969;
-  border-bottom-color: #ff6969;
 }
 
 body .tab-container {
@@ -1084,6 +1083,9 @@ footer section .full nav span + span {
   .trustpilot-review {
     max-width: 250px;
   }
+  .form-input {
+    width: 100%;
+  }
   .money {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1212,3 +1214,4 @@ footer section .full nav span + span {
     margin-bottom: 15px;
   }
 }
+/*# sourceMappingURL=rave.css.map */
