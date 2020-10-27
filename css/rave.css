@@ -1084,7 +1084,7 @@ footer section .full nav span + span {
     max-width: 250px;
   }
   .form-input {
-    width: 100%;
+    width: 100% !important;
   }
   .money {
     -webkit-box-orient: vertical;
