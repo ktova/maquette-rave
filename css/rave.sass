@@ -166,493 +166,493 @@ body
     .full
       width: 100%
    
-  .search_video, .newsletter
-    background-color: $grey-6
+.search_video, .newsletter
+  background-color: $grey-6
 
-  .mec, .gdi
-    background-color: $white
+.mec, .gdi
+  background-color: $white
 
-  .testimonials, .about
-    background-color: $grey-f6
+.testimonials, .about
+  background-color: $grey-f6
 
-  /* Search Video */
-  .search_video
-    background-color: rgba(0, 0, 0, 0)
+/* Search Video */
+.search_video
+  background-color: rgba(0, 0, 0, 0)
 
-    .half:first-child
-      flex-direction: column
-
-      img
-        position: absolute
-        top: -10px
-        left: -20px
-        z-index: 1
-
-      h1, span
-        color: $white
-        position: relative
-        z-index: 2
-
-      h1
-        max-width: 400px
-      
-      .button-dark
-        @extend %button-dark
-        margin-top: 10px
-        width: auto
-        margin-right: auto
-
-      .input-group
-        margin-top: 25px
-
-        i
-          position: absolute
-          z-index: 4
-          right: 20px
-          top: 12px
-          color: $grey-6
-
-    .half:last-child
-      margin-left: 10%
-
-      div
-        display: flex
-        flex-direction: column
-        align-items: center
-        position: absolute
-        right: 0
-        top: 0
-
-        i
-          color: $pinky
-          height: 50px
-          width: 50px
-          justify-content: center
-          display: flex
-          align-items: center
-          background-color: white
-          border-radius: 50px
-          margin-bottom: 10px
-          cursor: pointer
-          transition: color 0.2s, background-color 0.2s
-
-          &:hover
-            color: $white
-            background-color: $pinky
-
-        span
-          text-transform: uppercase
-          color: $white
-
-  /* About */
-  .about
-    .half:first-child
-      flex-direction: column
-
-      h2
-        margin-bottom: 35px
-        a
-          color: $pinky
-      
-      span + span
-        margin-top: 25px
-
-      .button-pinky
-        @extend %button-pinky
-        margin-top: 35px
-        width: auto
-        margin-right: auto
-
-    .half:last-child
-      margin-left: 10%
-
-      div
-        width: 49%
-
-        span
-          display: flex
-          background-color: $grey-6
-          justify-content: center
-          align-items: center
-
-        span:first-child
-          width: 100%
-          height: 250px
-
-        span:last-child
-          width: 75%
-          height: 170px
-
-        span + span
-          margin-top: 5px
-
-      div:first-child
-        display: flex
-        align-items: center
-
-      div + div
-        margin-left: 2%
-      
-      .left-section
-        span
-          background-size: contain
-
-  /* Money Explore Carousel */
-  .mec
+  .half:first-child
     flex-direction: column
 
-    .full + .full
-      margin-top: 50px
+    img
+      position: absolute
+      top: -10px
+      left: -20px
+      z-index: 1
 
-    .full:first-child, .full:nth-child(2)
+    h1, span
+      color: $white
+      position: relative
+      z-index: 2
 
-      h2
-        text-align: center
+    h1
+      max-width: 400px
     
-    .full
-      h2
-        margin-bottom: 50px
-
-    .money
-      display: flex
-      flex-wrap: wrap
-      justify-content: space-between
-
-      .money_item
-        width: 23%
-        text-align: center
-
-        h5
-          font-weight: 900
-          margin: 30px 0
-
-    .explore
-      display: flex
-      flex-wrap: wrap
-      justify-content: space-between
-      margin-bottom: 50px
-
-      .explore_item
-        width: 23%
-        text-align: left
-
-        &:hover
-          cursor: pointer
-
-        h5
-          font-weight: 700
-          margin-top: 15px
-        
-        h6
-          font-weight: 700
-          color: $grey-9a
-          margin: 10px 0 15px 0
-          text-transform: uppercase
-        
-        span:first-child
-          display: inline-flex
-          width: 100%
-          height: 300px
-          background-color: $dark-2
-
-        span
-          color: $grey-8a
-          
-    .button-pinky_outline
-      @extend %button-pinky-outline
-      margin-top: 35px
+    .button-dark
+      @extend %button-dark
+      margin-top: 10px
       width: auto
-      margin: auto
-      margin-bottom: 50px
+      margin-right: auto
 
-  /* Testimonials */
-  .testimonials
-    flex-wrap: wrap
-    flex-direction: column
+    .input-group
+      margin-top: 25px
+
+      i
+        position: absolute
+        z-index: 4
+        right: 20px
+        top: 12px
+        color: $grey-6
+
+  .half:last-child
+    margin-left: 10%
 
     div
       display: flex
-      justify-content: space-between
+      flex-direction: column
+      align-items: center
+      position: absolute
+      right: 0
+      top: 0
 
-      .half
-        flex-direction: column
-        text-align: left
-
-        i
-          color: $grey-9a
-
-        span
-          margin: 20px 0
-
-        .testimonials_persona
-          display: flex
-          margin-right: auto
-
-          img
-            width: 40px
-            height: 40px
-            margin-right: 10px
-            border-radius: 50%
-
-          .persona_infos
-            display: flex
-            flex-wrap: wrap
-            flex-direction: column
-
-            h6:first-child
-              font-weight: 700
-
-            h6 + h6
-              color: $grey-a
-
-    .full
-      display: flex
-      margin-top: 50px
-      justify-content: center
-      padding: 20px
-      background-color: $white  
-
-  /* Gallery Deals Travel */
-  .gdi
-    display: flex
-    flex-direction: column
-
-    h2, h6
-      text-align: center
-
-    h6
-      color: $grey-a
-      margin-top: 10px
-
-    .gallery
-      display: flex
-      justify-content: space-between
-      height: 400px
-      margin: 50px 0
-      text-align: center
-
-      span
-        color: $white
-        font-weight: 700
-        font-size: 30px
-        text-shadow: 1px 2px 2px $dark-0
-        flex-direction: column
+      i
+        color: $pinky
+        height: 50px
+        width: 50px
+        justify-content: center
+        display: flex
+        align-items: center
+        background-color: white
+        border-radius: 50px
+        margin-bottom: 10px
+        cursor: pointer
+        transition: color 0.2s, background-color 0.2s
 
         &:hover
-          cursor: pointer
-
-        h5, h6
-          margin: 0
-
-        h6
           color: $white
-          margin-bottom: 5px
-        h5
-          text-transform: uppercase
-          text-shadow: none
-          font-size: 14px
-          font-weight: 700
-          color: $dark-0
-          background-color: $white
-          border-radius: 5px
-          padding: 10px 20px
-          transition: all 0.2s linear
+          background-color: $pinky
 
-          &:hover
-            cursor: pointer
-            background-color: $grey-8a
+      span
+        text-transform: uppercase
+        color: $white
 
-      .gallery-half
-        width: 48%
+/* About */
+.about
+  .half:first-child
+    flex-direction: column
+
+    h2
+      margin-bottom: 35px
+      a
+        color: $pinky
+    
+    span + span
+      margin-top: 25px
+
+    .button-pinky
+      @extend %button-pinky
+      margin-top: 35px
+      width: auto
+      margin-right: auto
+
+  .half:last-child
+    margin-left: 10%
+
+    div
+      width: 49%
+
+      span
         display: flex
+        background-color: $grey-6
+        justify-content: center
+        align-items: center
 
-        span
-          width: 100%
-          height: 100%
-          display: inline-flex
-          justify-content: center
-          align-items: center
-          border-radius: 5px
-          background-size: cover !important
-          background-position: center center
-      
-      .gallery-quarter
-        width: 23%
-        display: flex
-        flex-direction: column
+      span:first-child
+        width: 100%
+        height: 250px
 
-        span
-          width: 100%
-          background-size: cover
-          background-position: center center
-      
-      .gallery-quarter
-        span
-          display: inline-flex
-          justify-content: center
-          align-items: center
-          background-size: cover !important
-          background-position: center center
+      span:last-child
+        width: 75%
+        height: 170px
 
-      .gallery-quarter:nth-child(even)
-        span:first-child
-          height: 32%
-          margin-bottom: auto
-        
-        span:last-child
-          height: 64%
+      span + span
+        margin-top: 5px
 
-      .gallery-quarter:nth-child(odd)
-        span:first-child
-          height: 64%
-          margin-bottom: auto
-        
-        span:last-child
-          height: 32%
+    div:first-child
+      display: flex
+      align-items: center
 
-  .deals
-    margin-bottom: 25px    
+    div + div
+      margin-left: 2%
+    
+    .left-section
+      span
+        background-size: contain
+
+/* Money Explore Carousel */
+.mec
+  flex-direction: column
+
+  .full + .full
+    margin-top: 50px
+
+  .full:first-child, .full:nth-child(2)
+
+    h2
+      text-align: center
+  
+  .full
+    h2
+      margin-bottom: 50px
+
+  .money
     display: flex
+    flex-wrap: wrap
     justify-content: space-between
 
-    .headbtn
-      display: flex
-      flex-direction: column
-      h2
-        text-align: left
-      span
-        color: $grey-8a
+    .money_item
+      width: 23%
+      text-align: center
 
-  .tab
+      h5
+        font-weight: 900
+        margin: 30px 0
+
+  .explore
     display: flex
-    border-bottom: 1px solid $grey-8a
-    margin-bottom: 25px
+    flex-wrap: wrap
+    justify-content: space-between
+    margin-bottom: 50px
 
-    .tabactive
-      color: $pinky !important
-      border-bottom: 4px solid $pinky
-
-    .tabindex
-      width: 20%
-      padding-bottom: 10px
-      color: $grey-8a
-      text-transform: uppercase   
-      transition: color 0.2s, border-bottom 0.2s
+    .explore_item
+      width: 23%
+      text-align: left
 
       &:hover
         cursor: pointer
-        color: $pinky
-    
-  .tab-container
+
+      h5
+        font-weight: 700
+        margin-top: 15px
+      
+      h6
+        font-weight: 700
+        color: $grey-9a
+        margin: 10px 0 15px 0
+        text-transform: uppercase
+      
+      span:first-child
+        display: inline-flex
+        width: 100%
+        height: 300px
+        background-color: $dark-2
+
+      span
+        color: $grey-8a
+        
+  .button-pinky_outline
+    @extend %button-pinky-outline
+    margin-top: 35px
+    width: auto
+    margin: auto
+    margin-bottom: 50px
+
+/* Testimonials */
+.testimonials
+  flex-wrap: wrap
+  flex-direction: column
+
+  div
     display: flex
-
-    .tab-hidden
-      display: none !important
-
-    .tab-section
-      display: flex
-      flex-wrap: wrap
-      justify-content: space-between
-
-      .tab-item
-        display: flex
-        width: 48%
-        justify-content: space-between
-        margin-bottom: 50px
-
-        .tab-img
-          border-radius: 5px
-          width: 33%
-          span
-            display: inline-flex
-            background-size: cover !important
-            background-position: center center
-            width: 100%
-            height: 100%
-
-        .tab-item-content
-          width: 65%
-          display: flex
-          flex-direction: column
-
-          span
-            margin: 15px 0 25px 0
-
-          .button-pinky
-            margin: 0 auto 0 0
-            @extend %button-pinky
-
-  .inspire
-    .headbtn
-      display: flex
-      justify-content: space-between
-      margin-bottom: 25px
-
-  .writtings
-    display: flex
-    margin-bottom: 25px
     justify-content: space-between
 
-    div
-      display: flex
+    .half
       flex-direction: column
-      width: 30%
+      text-align: left
 
-      .read-more
+      i
+        color: $grey-9a
+
+      span
+        margin: 20px 0
+
+      .testimonials_persona
+        display: flex
+        margin-right: auto
+
+        img
+          width: 40px
+          height: 40px
+          margin-right: 10px
+          border-radius: 50%
+
+        .persona_infos
+          display: flex
+          flex-wrap: wrap
+          flex-direction: column
+
+          h6:first-child
+            font-weight: 700
+
+          h6 + h6
+            color: $grey-a
+
+  .full
+    display: flex
+    margin-top: 50px
+    justify-content: center
+    padding: 20px
+    background-color: $white  
+
+/* Gallery Deals Travel */
+.gdi
+  display: flex
+  flex-direction: column
+
+  h2, h6
+    text-align: center
+
+  h6
+    color: $grey-a
+    margin-top: 10px
+
+  .gallery
+    display: flex
+    justify-content: space-between
+    height: 400px
+    margin: 50px 0
+    text-align: center
+
+    span
+      color: $white
+      font-weight: 700
+      font-size: 30px
+      text-shadow: 1px 2px 2px $dark-0
+      flex-direction: column
+
+      &:hover
+        cursor: pointer
+
+      h5, h6
+        margin: 0
+
+      h6
+        color: $white
+        margin-bottom: 5px
+      h5
+        text-transform: uppercase
+        text-shadow: none
         font-size: 14px
-        color: $pinky
+        font-weight: 700
+        color: $dark-0
+        background-color: $white
+        border-radius: 5px
+        padding: 10px 20px
+        transition: all 0.2s linear
 
         &:hover
           cursor: pointer
+          background-color: $grey-8a
 
-      h6
-        color: $grey-8a
-        text-align: left
-        text-transform: uppercase
-        font-size: 12px
-        font-weight: 700
+    .gallery-half
+      width: 48%
+      display: flex
 
       span
-        &:first-child
-          height: 200px
-          width: 100%
-          display: inline-flex
-          background-size: cover !important
-          background-position: center center
-          margin-bottom: 10px
-
-      span , span:nth-child(2)
-        margin-top: 15px
-        color: $grey-8a
-
-  /* Newsletter */
-  .newsletter
-    .full
+        width: 100%
+        height: 100%
+        display: inline-flex
+        justify-content: center
+        align-items: center
+        border-radius: 5px
+        background-size: cover !important
+        background-position: center center
+    
+    .gallery-quarter
+      width: 23%
       display: flex
       flex-direction: column
 
-      h2, span
-        text-align: center
-        color: $white
+      span
+        width: 100%
+        background-size: cover
+        background-position: center center
+    
+    .gallery-quarter
+      span
+        display: inline-flex
+        justify-content: center
+        align-items: center
+        background-size: cover !important
+        background-position: center center
 
-      div
+    .gallery-quarter:nth-child(even)
+      span:first-child
+        height: 32%
+        margin-bottom: auto
+      
+      span:last-child
+        height: 64%
+
+    .gallery-quarter:nth-child(odd)
+      span:first-child
+        height: 64%
+        margin-bottom: auto
+      
+      span:last-child
+        height: 32%
+
+.deals
+  margin-bottom: 25px    
+  display: flex
+  justify-content: space-between
+
+  .headbtn
+    display: flex
+    flex-direction: column
+    h2
+      text-align: left
+    span
+      color: $grey-8a
+
+.tab
+  display: flex
+  border-bottom: 1px solid $grey-8a
+  margin-bottom: 25px
+
+  .tabactive
+    color: $pinky !important
+    border-bottom: 4px solid $pinky
+
+  .tabindex
+    width: 20%
+    padding-bottom: 10px
+    color: $grey-8a
+    text-transform: uppercase   
+    transition: color 0.2s, border-bottom 0.2s
+
+    &:hover
+      cursor: pointer
+      color: $pinky
+  
+.tab-container
+  display: flex
+
+  .tab-hidden
+    display: none !important
+
+  .tab-section
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+
+    .tab-item
+      display: flex
+      width: 48%
+      justify-content: space-between
+      margin-bottom: 50px
+
+      .tab-img
+        border-radius: 5px
+        width: 33%
+        span
+          display: inline-flex
+          background-size: cover !important
+          background-position: center center
+          width: 100%
+          height: 100%
+
+      .tab-item-content
+        width: 65%
         display: flex
-        width: 50%
-        margin: 20px auto
-
-        input, span
-          height: 50px
-          border-radius: 0
-
-        input
-          width: 75%
+        flex-direction: column
 
         span
+          margin: 15px 0 25px 0
+
+        .button-pinky
+          margin: 0 auto 0 0
           @extend %button-pinky
-          width: 25%
-          font-size: 12px
-          display: flex
-          align-items: center
+
+.inspire
+  .headbtn
+    display: flex
+    justify-content: space-between
+    margin-bottom: 25px
+
+.writtings
+  display: flex
+  margin-bottom: 25px
+  justify-content: space-between
+
+  div
+    display: flex
+    flex-direction: column
+    width: 30%
+
+    .read-more
+      font-size: 14px
+      color: $pinky
+
+      &:hover
+        cursor: pointer
+
+    h6
+      color: $grey-8a
+      text-align: left
+      text-transform: uppercase
+      font-size: 12px
+      font-weight: 700
+
+    span
+      &:first-child
+        height: 200px
+        width: 100%
+        display: inline-flex
+        background-size: cover !important
+        background-position: center center
+        margin-bottom: 10px
+
+    span , span:nth-child(2)
+      margin-top: 15px
+      color: $grey-8a
+
+/* Newsletter */
+.newsletter
+  .full
+    display: flex
+    flex-direction: column
+
+    h2, span
+      text-align: center
+      color: $white
+
+    div
+      display: flex
+      width: 50%
+      margin: 20px auto
+
+      input, span
+        height: 50px
+        border-radius: 0
+
+      input
+        width: 75%
+
+      span
+        @extend %button-pinky
+        width: 25%
+        font-size: 12px
+        display: flex
+        align-items: center
 
 /* Extra */
 
